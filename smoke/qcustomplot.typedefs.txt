@@ -1,0 +1,135 @@
+QSizePolicy::ControlTypes;QFlags<QSizePolicy::ControlType>
+Region;_XRegion*
+QVariant::f_canConvert;bool(*)(const QVariant::Private*,QVariant::Type)
+quint16;unsigned short
+QMetaObjectExtraData::StaticMetacallFunction;void(*)(QObject*,QMetaObject::Call,int,void**)
+Qt::DockWidgetAreas;QFlags<Qt::DockWidgetArea>
+QByteArray::reference;char&
+QCPBarDataMap;QMap<double,QCPBarData>
+QByteArray::value_type;char
+QtMsgHandler;void(*)(QtMsgType,const char*)
+QCPFinancialDataMap;QMap<double,QCPFinancialData>
+QTextStreamFunction;QTextStream&(*)(QTextStream&)
+QMutableStringListIterator;QMutableListIterator<QString>
+QVariant::f_save;void(*)(const QVariant::Private*,QDataStream&)
+QObjectList;QList<QObject*>
+QPen::DataPtr;QPenPrivate*
+QCPCurveDataMap;QMap<double,QCPCurveData>
+Qt::MouseButtons;QFlags<Qt::MouseButton>
+QWidget::RenderFlags;QFlags<QWidget::RenderFlag>
+QStringListIterator;QListIterator<QString>
+QString::SectionFlags;QFlags<QString::SectionFlag>
+QFile::EncoderFn;QByteArray(*)(const QString&)
+QVariant::f_clear;void(*)(QVariant::Private*)
+QTextOption::Flags;QFlags<QTextOption::Flag>
+qulonglong;unsigned long long
+QString::iterator;QChar*
+QByteArray::iterator;char*
+QByteArray::ConstIterator;const char*
+QByteArray::Iterator;char*
+QTextStream::NumberFlags;QFlags<QTextStream::NumberFlag>
+QKeySequence::DataPtr;QKeySequencePrivate*
+QFile::FileHandleFlags;QFlags<QFile::FileHandleFlag>
+Qt::HANDLE;unsigned long
+QtGuiModule;QtValidLicenseForGuiModule
+QNoImplicitBoolCast;int
+QCPLegend::SelectableParts;QFlags<QCPLegend::SelectablePart>
+Qt::ImageConversionFlags;QFlags<Qt::ImageConversionFlag>
+QCPFinancialDataMapIterator;QMapIterator<double,QCPFinancialData>
+XEvent;_XEvent
+QMetaObjectAccessor;const QMetaObject&(*)()
+QCPFinancialDataMutableMapIterator;QMutableMapIterator<double,QCPFinancialData>
+Qt::TouchPointStates;QFlags<Qt::TouchPointState>
+QPainter::PixmapFragmentHints;QFlags<QPainter::PixmapFragmentHint>
+QVariantMap;QMap<QString,QVariant>
+QFile::Permissions;QFlags<QFile::Permission>
+QWidgetMapper;QHash<unsigned long,QWidget*>
+QCPPainter::PainterModes;QFlags<QCPPainter::PainterMode>
+uchar;unsigned char
+ushort;unsigned short
+Qt::WindowStates;QFlags<Qt::WindowState>
+QVariant::f_convert;bool(*)(const QVariant::Private*,QVariant::Type,void*,bool*)
+QCPDataMap;QMap<double,QCPData>
+qint16;short
+qreal;double
+QString::const_reference;const QChar&
+qInternalCallback;bool(*)(void**)
+QRgb;unsigned int
+Qt::ToolBarAreas;QFlags<Qt::ToolBarArea>
+QtSharedPointer::ExternalRefCountWithDestroyFn::DestroyerFn;void(*)(QtSharedPointer::ExternalRefCountData*)
+QtCoreModule;QtValidLicenseForCoreModule
+QString::reference;QChar&
+qint32;int
+QString::Iterator;QChar*
+QStdWString;std::basic_string<wchar_t>
+QCPAxis::SelectableParts;QFlags<QCPAxis::SelectablePart>
+QTSMFC;void(*)(QChar)
+QString::DataPtr;QString::Data*
+QFile::DecoderFn;QString(*)(const QByteArray&)
+QTSMFI;void(*)(int)
+ulong;unsigned long
+QLocale::NumberOptions;QFlags<QLocale::NumberOption>
+Qt::KeyboardModifiers;QFlags<Qt::KeyboardModifier>
+QVariantList;QList<QVariant>
+Display;_XDisplay
+QCPCurveDataMapIterator;QMapIterator<double,QCPCurveData>
+WId;unsigned long
+QMetaType::Constructor;void*(*)(const void*)
+uint;unsigned int
+QCPDataMapIterator;QMapIterator<double,QCPData>
+QCP::AntialiasedElements;QFlags<QCP::AntialiasedElement>
+QByteArray::DataPtr;QByteArray::Data*
+QGradientStops;QVector<QPair<double,QColor> >
+qlonglong;long long
+QWidgetList;QList<QWidget*>
+QWidgetSet;QSet<QWidget*>
+GC;_XGC*
+Qt::Orientations;QFlags<Qt::Orientation>
+QVariant::f_construct;void(*)(QVariant::Private*,const void*)
+QString::const_iterator;const QChar*
+QImage::DataPtr;QImageData*
+QMetaType::LoadOperator;void(*)(QDataStream&,void*)
+qint64;long long
+QCP::MarginSides;QFlags<QCP::MarginSide>
+QPixmap::DataPtr;QExplicitlySharedDataPointer<QPixmapData>
+QByteArray::const_iterator;const char*
+Qt::GestureFlags;QFlags<Qt::GestureFlag>
+Qt::WFlags;QFlags<Qt::WindowType>
+Qt::TextInteractionFlags;QFlags<Qt::TextInteractionFlag>
+QIODevice::OpenMode;QFlags<QIODevice::OpenModeFlag>
+QPainter::RenderHints;QFlags<QPainter::RenderHint>
+QString::value_type;QChar
+QCP::Interactions;QFlags<QCP::Interaction>
+Qt::WindowFlags;QFlags<Qt::WindowType>
+Qt::MatchFlags;QFlags<Qt::MatchFlag>
+QCPDataMutableMapIterator;QMutableMapIterator<double,QCPData>
+QVariant::f_debugStream;void(*)(QDebug,const QVariant&)
+QDrawBorderPixmap::DrawingHints;QFlags<QDrawBorderPixmap::DrawingHint>
+quint64;unsigned long long
+QMetaType::Destructor;void(*)(void*)
+Qt::ItemFlags;QFlags<Qt::ItemFlag>
+Qt::Alignment;QFlags<Qt::AlignmentFlag>
+qptrdiff;QIntegerForSizeof< void* >::Signed
+QBrush::DataPtr;QScopedPointer<QBrushData,QBrushDataPointerDeleter>
+Qt::DropActions;QFlags<Qt::DropAction>
+QMetaType::SaveOperator;void(*)(QDataStream&,const void*)
+quint32;unsigned int
+QVariant::f_load;void(*)(QVariant::Private*,QDataStream&)
+FT_Face;FT_FaceRec_*
+QGradientStop;QPair<double,QColor>
+QByteArray::const_reference;const char&
+qint8;signed char
+QVariant::DataPtr;QVariant::Private
+QVariant::f_compare;bool(*)(const QVariant::Private*,const QVariant::Private*)
+QCP::PlottingHints;QFlags<QCP::PlottingHint>
+QVariantHash;QHash<QString,QVariant>
+quintptr;QIntegerForSizeof< void* >::Unsigned
+quint8;unsigned char
+QCPBarDataMapIterator;QMapIterator<double,QCPBarData>
+Qt::InputMethodHints;QFlags<Qt::InputMethodHint>
+QVariant::f_null;bool(*)(const QVariant::Private*)
+QCPAxis::AxisTypes;QFlags<QCPAxis::AxisType>
+QPrinter::PaperSize;QPrinter::PageSize
+QCPCurveDataMutableMapIterator;QMutableMapIterator<double,QCPCurveData>
+QString::ConstIterator;const QChar*
+QCPBarDataMutableMapIterator;QMutableMapIterator<double,QCPBarData>

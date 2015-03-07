@@ -1,0 +1,140 @@
+<config>
+    <moduleName>qcustomplot</moduleName>
+ 
+    <!-- Our classes inherit from classes that are in the kdecore and kdeui modules. -->
+    <parentModules>
+        <module>qtcore</module>
+        <module>qtgui</module>
+    </parentModules>
+ 
+    <!-- how many source files should the generator create? -->
+    <parts>10</parts>
+ 
+    <!-- the following two sections are needed for every Qt based module! -->
+    <scalarTypes>
+        <!-- QString is a class, but represented as a scalar (#) in munged names -->
+        <typeName>QString</typeName>
+    </scalarTypes>
+    <voidpTypes>
+        <!-- both are classes, but they are represented as Smoke::t_voidp -->
+        <typeName>QStringList</typeName>
+        <typeName>QString</typeName>
+    </voidpTypes>
+ 
+    <!-- regexps for signatures of methods and functions that we don't want
+         to be wrapped in the smoke module -->
+    <exclude>
+        <!-- we don't want these private members in smoke.. -->
+        <signature>.*::d_ptr.*</signature>
+        <signature>.*::q_ptr.*</signature>
+	<signature>.*QCPItemLine::end.*</signature>
+	<signature>.*QCPItemLine::start.*</signature>
+	<signature>.*QCPItemEllipse::topLeft.*</signature>
+	<signature>.*QCPItemEllipse::bottomRight.*</signature>
+	<signature>.*QCPItemEllipse::topLeftRim.*</signature>
+	<signature>.*QCPItemEllipse::top.*</signature>
+	<signature>.*QCPItemEllipse::topRight.*</signature>
+	<signature>.*QCPItemEllipse::right.*</signature>
+	<signature>.*QCPItemEllipse::bottom.*</signature>
+	<signature>.*QCPItemEllipse::center.*</signature>
+	<signature>.*QCPItemBracket::right.*</signature>
+	<signature>.*QCPItemBracket::left.*</signature>
+	<signature>.*QCPItemBracket::center.*</signature>
+	<signature>.*QCPItemCurve::start.*</signature>
+	<signature>.*QCPItemCurve::startDir.*</signature>
+	<signature>.*QCPItemCurve::endDir.*</signature>
+	<signature>.*QCPItemCurve::end.*</signature>
+	<signature>.*QCPItemEllipse::left.*</signature>
+	<signature>.*QCPItemPixmap::topLeft.*</signature>
+	<signature>.*QCPItemPixmap::bottomRight.*</signature>
+	<signature>.*QCPItemPixmap::top.*</signature>
+	<signature>.*QCPItemPixmap::topRight.*</signature>
+	<signature>.*QCPItemPixmap::right.*</signature>
+	<signature>.*QCPItemPixmap::bottom.*</signature>
+	<signature>.*QCPItemPixmap::bottomLeft.*</signature>
+	<signature>.*QCPItemPixmap::left.*</signature>
+	<signature>.*QCPItemRect::topLeft.*</signature>
+	<signature>.*QCPItemRect::bottomRight.*</signature>
+	<signature>.*QCPItemRect::top.*</signature>
+	<signature>.*QCPItemRect::topRight.*</signature>
+	<signature>.*QCPItemRect::right.*</signature>
+	<signature>.*QCPItemRect::bottom.*</signature>
+	<signature>.*QCPItemRect::bottomLeft.*</signature>
+	<signature>.*QCPItemRect::left.*</signature>
+	<signature>.*QCPItemStraightLine::point1.*</signature>
+	<signature>.*QCPItemStraightLine::point2.*</signature>
+	<signature>.*QCPItemText::position.*</signature>
+	<signature>.*QCPItemText::topLeft.*</signature>
+	<signature>.*QCPItemText::top.*</signature>
+	<signature>.*QCPItemText::topRight.*</signature>
+	<signature>.*QCPItemText::right.*</signature>
+	<signature>.*QCPItemText::bottomRight.*</signature>
+	<signature>.*QCPItemText::bottom.*</signature>
+	<signature>.*QCPItemText::bottomLeft.*</signature>
+	<signature>.*QCPItemText::left.*</signature>
+	<signature>.*QCPItemTracer::position.*</signature>
+	<signature>.*strstr.*</signature>
+	<signature>.*strchr.*</signature>
+	<signature>.*strrchr.*</signature>
+	<signature>.*strerror_r.*</signature>
+	<signature>.*memchr.*</signature>
+	<signature>.*strpbrk.*</signature>
+	
+    </exclude>
+ 
+    <!-- regexps for signatures of top-level functions we want to have included -->
+    <functions>
+        <!-- include functions starting with 'qcustomplot' -->
+        <name>.*</name>
+         <!-- and operators -->
+        <name>.*operator.*</name>
+    </functions>
+    <classList>
+      <class>QCPScatterStyle</class>
+      <class>QCPPainter</class>
+      <class>QCPLayer</class>
+      <class>QCPLayerable</class>
+      <class>QCPRange</class>
+      <class>QCPMarginGroup</class>
+      <class>QCPLayoutElement</class>
+      <class>QCPLayout</class>
+      <class>QCPLayoutGrid</class>
+      <class>QCPLayoutInset</class>
+      <class>QCPLineEnding</class>
+      <class>QCPGrid</class>
+      <class>QCPAxis</class>
+      <class>QCPAbstractPlottable</class>
+      <class>QCPItemAnchor</class>
+      <class>QCPItemPosition</class>
+      <class>QCPAbstractItem</class>
+      <class>QCustomPlot</class>
+      <class>QCPColorGradient</class>
+      <class>QCPAxisRect</class>
+      <class>QCPAbstractLegendItem</class>
+      <class>QCPPlottableLegendItem</class>
+      <class>QCPLegend</class>
+      <class>QCPPlotTitle</class>
+      <class>QCPColorScale</class>
+      <class>QCPData</class>
+      <class>QCPGraph</class>
+      <class>QCPCurveData</class>
+      <class>QCPCurve</class>
+      <class>QCPBarsGroup</class>
+      <class>QCPBarData</class>
+      <class>QCPBars</class>
+      <class>QCPStatisticalBox</class>
+      <class>QCPColorMapData</class>
+      <class>QCPColorMap</class>
+      <class>QCPFinancialData</class>
+      <class>QCPFinancial</class>
+      <class>QCPItemStraightLine</class>
+      <class>QCPItemLine</class>
+      <class>QCPItemCurve</class>
+      <class>QCPItemRect</class>
+      <class>QCPItemText</class>
+      <class>QCPItemEllipse</class>
+      <class>QCPItemPixmap</class>
+      <class>QCPItemTracer</class>
+      <class>QCPItemBracket</class>
+    </classList>
+</config>

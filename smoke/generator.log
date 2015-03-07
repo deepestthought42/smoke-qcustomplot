@@ -1,0 +1,5 @@
+qcustomplot.h: (115546, 51): Expression expected :     ConstructPtr cptr = qMetaTypeConstructHelper<T>;
+qcustomplot.h: (115546, 51): Initializer clause expected :     ConstructPtr cptr = qMetaTypeConstructHelper<T>;
+qcustomplot.h: (115548, 45): Expression expected :     DeletePtr dptr = qMetaTypeDeleteHelper<T>;
+qcustomplot.h: (115548, 45): Initializer clause expected :     DeletePtr dptr = qMetaTypeDeleteHelper<T>;
+qcustomplot.h: (115564, 41): Expression expected :     SavePtr sptr = qMetaTypeSaveHelper<T>;

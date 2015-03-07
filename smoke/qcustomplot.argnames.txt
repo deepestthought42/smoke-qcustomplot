@@ -1,0 +1,1664 @@
+QCPAbstractItem,qt_metacast,409;arg1
+QCPAbstractItem,tr,409,409;s,c = 0
+QCPAbstractItem,trUtf8,409,409;s,c = 0
+QCPAbstractItem,tr,409,409,417;s,c,n
+QCPAbstractItem,trUtf8,409,409,417;s,c,n
+QCPAbstractItem,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPAbstractItem,QCPAbstractItem,114;parentPlot
+QCPAbstractItem,setClipToAxisRect,318;clip
+QCPAbstractItem,setClipAxisRect,23;rect
+QCPAbstractItem,setSelectable,318;selectable
+QCPAbstractItem,setSelected,318;selected
+QCPAbstractItem,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPAbstractItem,position,400;name
+QCPAbstractItem,anchor,400;name
+QCPAbstractItem,hasAnchor,400;name
+QCPAbstractItem,selectionChanged,318;selected
+QCPAbstractItem,selectableChanged,318;selectable
+QCPAbstractItem,applyDefaultAntialiasingHint,97;painter
+QCPAbstractItem,draw,97;painter
+QCPAbstractItem,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPAbstractItem,deselectEvent,320;selectionStateChanged
+QCPAbstractItem,anchorPixelPoint,417;anchorId
+QCPAbstractItem,distSqrToLine,383,383,383;start,end,point
+QCPAbstractItem,rectSelectTest,394,383,318;rect,pos,filledRect
+QCPAbstractItem,createPosition,400;name
+QCPAbstractItem,createAnchor,400,417;name,anchorId
+QCPAbstractItem,tr,409;s
+QCPAbstractItem,trUtf8,409;s
+QCPAbstractItem,selectTest,383,318;pos,onlySelectable
+QCPAbstractItem,setMClipToAxisRect,318;arg1
+QCPAbstractItem,setMClipAxisRect,385;arg1
+QCPAbstractItem,setMPositions,360;arg1
+QCPAbstractItem,setMAnchors,359;arg1
+QCPAbstractItem,setMSelectable,318;arg1
+QCPAbstractItem,setMSelected,318;arg1
+QCPAbstractLegendItem,qt_metacast,409;arg1
+QCPAbstractLegendItem,tr,409,409;s,c = 0
+QCPAbstractLegendItem,trUtf8,409,409;s,c = 0
+QCPAbstractLegendItem,tr,409,409,417;s,c,n
+QCPAbstractLegendItem,trUtf8,409,409,417;s,c,n
+QCPAbstractLegendItem,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPAbstractLegendItem,QCPAbstractLegendItem,89;parent
+QCPAbstractLegendItem,setFont,348;font
+QCPAbstractLegendItem,setTextColor,341;color
+QCPAbstractLegendItem,setSelectedFont,348;font
+QCPAbstractLegendItem,setSelectedTextColor,341;color
+QCPAbstractLegendItem,setSelectable,318;selectable
+QCPAbstractLegendItem,setSelected,318;selected
+QCPAbstractLegendItem,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPAbstractLegendItem,selectionChanged,318;selected
+QCPAbstractLegendItem,selectableChanged,318;selectable
+QCPAbstractLegendItem,applyDefaultAntialiasingHint,97;painter
+QCPAbstractLegendItem,draw,97;painter
+QCPAbstractLegendItem,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPAbstractLegendItem,deselectEvent,320;selectionStateChanged
+QCPAbstractLegendItem,tr,409;s
+QCPAbstractLegendItem,trUtf8,409;s
+QCPAbstractLegendItem,selectTest,383,318;pos,onlySelectable
+QCPAbstractLegendItem,setMParentLegend,89;arg1
+QCPAbstractLegendItem,setMFont,348;arg1
+QCPAbstractLegendItem,setMTextColor,341;arg1
+QCPAbstractLegendItem,setMSelectedFont,348;arg1
+QCPAbstractLegendItem,setMSelectedTextColor,341;arg1
+QCPAbstractLegendItem,setMSelectable,318;arg1
+QCPAbstractLegendItem,setMSelected,318;arg1
+QCPAbstractPlottable,qt_metacast,409;arg1
+QCPAbstractPlottable,tr,409,409;s,c = 0
+QCPAbstractPlottable,trUtf8,409,409;s,c = 0
+QCPAbstractPlottable,tr,409,409,417;s,c,n
+QCPAbstractPlottable,trUtf8,409,409,417;s,c,n
+QCPAbstractPlottable,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPAbstractPlottable,QCPAbstractPlottable,14,14;keyAxis,valueAxis
+QCPAbstractPlottable,setName,400;name
+QCPAbstractPlottable,setAntialiasedFill,318;enabled
+QCPAbstractPlottable,setAntialiasedScatters,318;enabled
+QCPAbstractPlottable,setAntialiasedErrorBars,318;enabled
+QCPAbstractPlottable,setPen,379;pen
+QCPAbstractPlottable,setSelectedPen,379;pen
+QCPAbstractPlottable,setBrush,323;brush
+QCPAbstractPlottable,setSelectedBrush,323;brush
+QCPAbstractPlottable,setKeyAxis,14;axis
+QCPAbstractPlottable,setValueAxis,14;axis
+QCPAbstractPlottable,setSelectable,318;selectable
+QCPAbstractPlottable,setSelected,318;selected
+QCPAbstractPlottable,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPAbstractPlottable,rescaleAxes,318;onlyEnlarge = false
+QCPAbstractPlottable,rescaleKeyAxis,318;onlyEnlarge = false
+QCPAbstractPlottable,rescaleValueAxis,318;onlyEnlarge = false
+QCPAbstractPlottable,selectionChanged,318;selected
+QCPAbstractPlottable,selectableChanged,318;selectable
+QCPAbstractPlottable,draw,97;painter
+QCPAbstractPlottable,applyDefaultAntialiasingHint,97;painter
+QCPAbstractPlottable,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPAbstractPlottable,deselectEvent,320;selectionStateChanged
+QCPAbstractPlottable,drawLegendIcon,97,394;painter,rect
+QCPAbstractPlottable,getKeyRange,319,12;foundRange,inSignDomain = QCPAbstractPlottable::sdBoth
+QCPAbstractPlottable,getValueRange,319,12;foundRange,inSignDomain = QCPAbstractPlottable::sdBoth
+QCPAbstractPlottable,coordsToPixels,414,414,415,415;key,value,x,y
+QCPAbstractPlottable,coordsToPixels,414,414;key,value
+QCPAbstractPlottable,pixelsToCoords,414,414,415,415;x,y,key,value
+QCPAbstractPlottable,pixelsToCoords,383,415,415;pixelPos,key,value
+QCPAbstractPlottable,applyFillAntialiasingHint,97;painter
+QCPAbstractPlottable,applyScattersAntialiasingHint,97;painter
+QCPAbstractPlottable,applyErrorBarsAntialiasingHint,97;painter
+QCPAbstractPlottable,distSqrToLine,383,383,383;start,end,point
+QCPAbstractPlottable,tr,409;s
+QCPAbstractPlottable,trUtf8,409;s
+QCPAbstractPlottable,selectTest,383,318;pos,onlySelectable
+QCPAbstractPlottable,getKeyRange,319;foundRange
+QCPAbstractPlottable,getValueRange,319;foundRange
+QCPAbstractPlottable,setMName,400;arg1
+QCPAbstractPlottable,setMAntialiasedFill,318;arg1
+QCPAbstractPlottable,setMAntialiasedScatters,318;arg1
+QCPAbstractPlottable,setMAntialiasedErrorBars,318;arg1
+QCPAbstractPlottable,setMPen,379;arg1
+QCPAbstractPlottable,setMSelectedPen,379;arg1
+QCPAbstractPlottable,setMBrush,323;arg1
+QCPAbstractPlottable,setMSelectedBrush,323;arg1
+QCPAbstractPlottable,setMKeyAxis,384;arg1
+QCPAbstractPlottable,setMValueAxis,384;arg1
+QCPAbstractPlottable,setMSelectable,318;arg1
+QCPAbstractPlottable,setMSelected,318;arg1
+QCPAxis,qt_metacast,409;arg1
+QCPAxis,tr,409,409;s,c = 0
+QCPAxis,trUtf8,409,409;s,c = 0
+QCPAxis,tr,409,409,417;s,c,n
+QCPAxis,trUtf8,409,409,417;s,c,n
+QCPAxis,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPAxis,QCPAxis,23,15;parent,type
+QCPAxis,setScaleType,18;type
+QCPAxis,setScaleLogBase,414;base
+QCPAxis,setRange,339;range
+QCPAxis,setRange,414,414;lower,upper
+QCPAxis,setRange,414,414,245;position,size,alignment
+QCPAxis,setRangeLower,414;lower
+QCPAxis,setRangeUpper,414;upper
+QCPAxis,setRangeReversed,318;reversed
+QCPAxis,setAutoTicks,318;on
+QCPAxis,setAutoTickCount,417;approximateCount
+QCPAxis,setAutoTickLabels,318;on
+QCPAxis,setAutoTickStep,318;on
+QCPAxis,setAutoSubTicks,318;on
+QCPAxis,setTicks,318;show
+QCPAxis,setTickLabels,318;show
+QCPAxis,setTickLabelPadding,417;padding
+QCPAxis,setTickLabelType,17;type
+QCPAxis,setTickLabelFont,348;font
+QCPAxis,setTickLabelColor,341;color
+QCPAxis,setTickLabelRotation,414;degrees
+QCPAxis,setTickLabelSide,16;side
+QCPAxis,setDateTimeFormat,400;format
+QCPAxis,setDateTimeSpec,408;timeSpec
+QCPAxis,setNumberFormat,400;formatCode
+QCPAxis,setNumberPrecision,417;precision
+QCPAxis,setTickStep,414;step
+QCPAxis,setTickVector,406;vec
+QCPAxis,setTickVectorLabels,405;vec
+QCPAxis,setTickLength,417,417;inside,outside = 0
+QCPAxis,setTickLengthIn,417;inside
+QCPAxis,setTickLengthOut,417;outside
+QCPAxis,setSubTickCount,417;count
+QCPAxis,setSubTickLength,417,417;inside,outside = 0
+QCPAxis,setSubTickLengthIn,417;inside
+QCPAxis,setSubTickLengthOut,417;outside
+QCPAxis,setBasePen,379;pen
+QCPAxis,setTickPen,379;pen
+QCPAxis,setSubTickPen,379;pen
+QCPAxis,setLabelFont,348;font
+QCPAxis,setLabelColor,341;color
+QCPAxis,setLabel,400;str
+QCPAxis,setLabelPadding,417;padding
+QCPAxis,setPadding,417;padding
+QCPAxis,setOffset,417;offset
+QCPAxis,setSelectedTickLabelFont,348;font
+QCPAxis,setSelectedLabelFont,348;font
+QCPAxis,setSelectedTickLabelColor,341;color
+QCPAxis,setSelectedLabelColor,341;color
+QCPAxis,setSelectedBasePen,379;pen
+QCPAxis,setSelectedTickPen,379;pen
+QCPAxis,setSelectedSubTickPen,379;pen
+QCPAxis,setSelectableParts,346;selectableParts
+QCPAxis,setSelectedParts,346;selectedParts
+QCPAxis,setLowerEnding,337;ending
+QCPAxis,setUpperEnding,337;ending
+QCPAxis,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPAxis,moveRange,414;diff
+QCPAxis,scaleRange,414,414;factor,center
+QCPAxis,setScaleRatio,326,414;otherAxis,ratio = 1.0
+QCPAxis,rescale,318;onlyVisiblePlottables = false
+QCPAxis,pixelToCoord,414;value
+QCPAxis,coordToPixel,414;value
+QCPAxis,getPartAt,383;pos
+QCPAxis,marginSideToAxisType,7;side
+QCPAxis,orientation,15;type
+QCPAxis,opposite,15;type
+QCPAxis,rangeChanged,339;newRange
+QCPAxis,rangeChanged,339,339;newRange,oldRange
+QCPAxis,scaleTypeChanged,18;scaleType
+QCPAxis,selectionChanged,327;parts
+QCPAxis,selectableChanged,327;parts
+QCPAxis,calculateAutoSubTickCount,414;tickStep
+QCPAxis,applyDefaultAntialiasingHint,97;painter
+QCPAxis,draw,97;painter
+QCPAxis,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPAxis,deselectEvent,320;selectionStateChanged
+QCPAxis,visibleTickBounds,418,418;lowIndex,highIndex
+QCPAxis,baseLog,414;value
+QCPAxis,basePow,414;value
+QCPAxis,tr,409;s
+QCPAxis,trUtf8,409;s
+QCPAxis,setTickLength,417;inside
+QCPAxis,setSubTickLength,417;inside
+QCPAxis,selectTest,383,318;pos,onlySelectable
+QCPAxis,setScaleRatio,326;otherAxis
+QCPAxis,setMAxisType,15;arg1
+QCPAxis,setMAxisRect,23;arg1
+QCPAxis,setMPadding,417;arg1
+QCPAxis,setMOrientation,291;arg1
+QCPAxis,setMSelectableParts,128;arg1
+QCPAxis,setMSelectedParts,128;arg1
+QCPAxis,setMBasePen,379;arg1
+QCPAxis,setMSelectedBasePen,379;arg1
+QCPAxis,setMLabel,400;arg1
+QCPAxis,setMLabelFont,348;arg1
+QCPAxis,setMSelectedLabelFont,348;arg1
+QCPAxis,setMLabelColor,341;arg1
+QCPAxis,setMSelectedLabelColor,341;arg1
+QCPAxis,setMTickLabels,318;arg1
+QCPAxis,setMAutoTickLabels,318;arg1
+QCPAxis,setMTickLabelType,17;arg1
+QCPAxis,setMTickLabelFont,348;arg1
+QCPAxis,setMSelectedTickLabelFont,348;arg1
+QCPAxis,setMTickLabelColor,341;arg1
+QCPAxis,setMSelectedTickLabelColor,341;arg1
+QCPAxis,setMDateTimeFormat,400;arg1
+QCPAxis,setMDateTimeSpec,305;arg1
+QCPAxis,setMNumberPrecision,417;arg1
+QCPAxis,setMNumberFormatChar,353;arg1
+QCPAxis,setMNumberBeautifulPowers,318;arg1
+QCPAxis,setMTicks,318;arg1
+QCPAxis,setMTickStep,414;arg1
+QCPAxis,setMSubTickCount,417;arg1
+QCPAxis,setMAutoTickCount,417;arg1
+QCPAxis,setMAutoTicks,318;arg1
+QCPAxis,setMAutoTickStep,318;arg1
+QCPAxis,setMAutoSubTicks,318;arg1
+QCPAxis,setMTickPen,379;arg1
+QCPAxis,setMSelectedTickPen,379;arg1
+QCPAxis,setMSubTickPen,379;arg1
+QCPAxis,setMSelectedSubTickPen,379;arg1
+QCPAxis,setMRange,339;arg1
+QCPAxis,setMRangeReversed,318;arg1
+QCPAxis,setMScaleType,18;arg1
+QCPAxis,setMScaleLogBase,414;arg1
+QCPAxis,setMScaleLogBaseLogInv,414;arg1
+QCPAxis,setMGrid,59;arg1
+QCPAxis,setMAxisPainter,21;arg1
+QCPAxis,setMLowestVisibleTick,417;arg1
+QCPAxis,setMHighestVisibleTick,417;arg1
+QCPAxis,setMTickVector,406;arg1
+QCPAxis,setMTickVectorLabels,405;arg1
+QCPAxis,setMSubTickVector,406;arg1
+QCPAxis,setMCachedMarginValid,318;arg1
+QCPAxis,setMCachedMargin,417;arg1
+QCPAxisRect,qt_metacast,409;arg1
+QCPAxisRect,tr,409,409;s,c = 0
+QCPAxisRect,trUtf8,409,409;s,c = 0
+QCPAxisRect,tr,409,409,417;s,c,n
+QCPAxisRect,trUtf8,409,409,417;s,c,n
+QCPAxisRect,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPAxisRect,QCPAxisRect,114,318;parentPlot,setupDefaultAxes = true
+QCPAxisRect,rangeDragAxis,291;orientation
+QCPAxisRect,rangeZoomAxis,291;orientation
+QCPAxisRect,rangeZoomFactor,291;orientation
+QCPAxisRect,setBackground,380;pm
+QCPAxisRect,setBackground,380,318,250;pm,scaled,mode = Qt::KeepAspectRatioByExpanding
+QCPAxisRect,setBackground,323;brush
+QCPAxisRect,setBackgroundScaled,318;scaled
+QCPAxisRect,setBackgroundScaledMode,250;mode
+QCPAxisRect,setRangeDrag,132;orientations
+QCPAxisRect,setRangeZoom,132;orientations
+QCPAxisRect,setRangeDragAxes,14,14;horizontal,vertical
+QCPAxisRect,setRangeZoomAxes,14,14;horizontal,vertical
+QCPAxisRect,setRangeZoomFactor,414,414;horizontalFactor,verticalFactor
+QCPAxisRect,setRangeZoomFactor,414;factor
+QCPAxisRect,axisCount,15;type
+QCPAxisRect,axis,15,417;type,index = 0
+QCPAxisRect,axes,127;types
+QCPAxisRect,addAxis,15,14;type,axis = 0
+QCPAxisRect,addAxes,127;types
+QCPAxisRect,removeAxis,14;axis
+QCPAxisRect,setupFullAxesBox,318;connectRanges = false
+QCPAxisRect,update,85;phase
+QCPAxisRect,elements,318;recursive
+QCPAxisRect,applyDefaultAntialiasingHint,97;painter
+QCPAxisRect,draw,97;painter
+QCPAxisRect,calculateAutoMargin,7;side
+QCPAxisRect,mousePressEvent,185;event
+QCPAxisRect,mouseMoveEvent,185;event
+QCPAxisRect,mouseReleaseEvent,185;event
+QCPAxisRect,wheelEvent,243;event
+QCPAxisRect,drawBackground,97;painter
+QCPAxisRect,updateAxesOffset,15;type
+QCPAxisRect,tr,409;s
+QCPAxisRect,trUtf8,409;s
+QCPAxisRect,QCPAxisRect,114;parentPlot
+QCPAxisRect,setBackground,380,318;pm,scaled
+QCPAxisRect,axis,15;type
+QCPAxisRect,addAxis,15;type
+QCPAxisRect,setMBackgroundBrush,323;arg1
+QCPAxisRect,setMBackgroundPixmap,380;arg1
+QCPAxisRect,setMScaledBackgroundPixmap,380;arg1
+QCPAxisRect,setMBackgroundScaled,318;arg1
+QCPAxisRect,setMBackgroundScaledMode,250;arg1
+QCPAxisRect,setMInsetLayout,87;arg1
+QCPAxisRect,setMRangeDrag,132;arg1
+QCPAxisRect,setMRangeZoom,132;arg1
+QCPAxisRect,setMRangeDragHorzAxis,384;arg1
+QCPAxisRect,setMRangeDragVertAxis,384;arg1
+QCPAxisRect,setMRangeZoomHorzAxis,384;arg1
+QCPAxisRect,setMRangeZoomVertAxis,384;arg1
+QCPAxisRect,setMRangeZoomFactorHorz,414;arg1
+QCPAxisRect,setMRangeZoomFactorVert,414;arg1
+QCPAxisRect,setMDragStartHorzRange,339;arg1
+QCPAxisRect,setMDragStartVertRange,339;arg1
+QCPAxisRect,setMAADragBackup,123;arg1
+QCPAxisRect,setMNotAADragBackup,123;arg1
+QCPAxisRect,setMDragStart,381;arg1
+QCPAxisRect,setMDragging,318;arg1
+QCPAxisRect,setMAxes,351;arg1
+QCPBarData,QCPBarData,414,414;key,value
+QCPBarData,QCPBarData,328;copy
+QCPBarData,setKey,414;arg1
+QCPBarData,setValue,414;arg1
+QCPBars,qt_metacast,409;arg1
+QCPBars,tr,409,409;s,c = 0
+QCPBars,trUtf8,409,409;s,c = 0
+QCPBars,tr,409,409,417;s,c,n
+QCPBars,trUtf8,409,409,417;s,c,n
+QCPBars,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPBars,QCPBars,14,14;keyAxis,valueAxis
+QCPBars,setWidth,414;width
+QCPBars,setWidthType,29;widthType
+QCPBars,setBarsGroup,30;barsGroup
+QCPBars,setBaseValue,414;baseValue
+QCPBars,setData,175,318;data,copy = false
+QCPBars,setData,406,406;key,value
+QCPBars,moveBelow,28;bars
+QCPBars,moveAbove,28;bars
+QCPBars,addData,369;dataMap
+QCPBars,addData,328;data
+QCPBars,addData,414,414;key,value
+QCPBars,addData,406,406;keys,values
+QCPBars,removeDataBefore,414;key
+QCPBars,removeDataAfter,414;key
+QCPBars,removeData,414,414;fromKey,toKey
+QCPBars,removeData,414;key
+QCPBars,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPBars,draw,97;painter
+QCPBars,drawLegendIcon,97,394;painter,rect
+QCPBars,getKeyRange,319,12;foundRange,inSignDomain = sdBoth
+QCPBars,getValueRange,319,12;foundRange,inSignDomain = sdBoth
+QCPBars,getVisibleDataBounds,26,26;lower,upperEnd
+QCPBars,getBarPolygon,414,414;key,value
+QCPBars,getPixelWidth,414,415,415;key,lower,upper
+QCPBars,getStackedBaseValue,414,318;key,positive
+QCPBars,connectBars,28,28;lower,upper
+QCPBars,tr,409;s
+QCPBars,trUtf8,409;s
+QCPBars,setData,175;data
+QCPBars,selectTest,383,318;pos,onlySelectable
+QCPBars,getKeyRange,319;foundRange
+QCPBars,getValueRange,319;foundRange
+QCPBars,setMData,175;arg1
+QCPBars,setMWidth,414;arg1
+QCPBars,setMWidthType,29;arg1
+QCPBars,setMBarsGroup,30;arg1
+QCPBars,setMBaseValue,414;arg1
+QCPBars,setMBarBelow,386;arg1
+QCPBars,setMBarAbove,386;arg1
+QCPBarsGroup,qt_metacast,409;arg1
+QCPBarsGroup,tr,409,409;s,c = 0
+QCPBarsGroup,trUtf8,409,409;s,c = 0
+QCPBarsGroup,tr,409,409,417;s,c,n
+QCPBarsGroup,trUtf8,409,409,417;s,c,n
+QCPBarsGroup,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPBarsGroup,QCPBarsGroup,114;parentPlot
+QCPBarsGroup,setSpacingType,31;spacingType
+QCPBarsGroup,setSpacing,414;spacing
+QCPBarsGroup,bars,417;index
+QCPBarsGroup,contains,28;bars
+QCPBarsGroup,append,28;bars
+QCPBarsGroup,insert,417,28;i,bars
+QCPBarsGroup,remove,28;bars
+QCPBarsGroup,registerBars,28;bars
+QCPBarsGroup,unregisterBars,28;bars
+QCPBarsGroup,keyPixelOffset,329,414;bars,keyCoord
+QCPBarsGroup,getPixelSpacing,329,414;bars,keyCoord
+QCPBarsGroup,tr,409;s
+QCPBarsGroup,trUtf8,409;s
+QCPBarsGroup,setMParentPlot,114;arg1
+QCPBarsGroup,setMSpacingType,31;arg1
+QCPBarsGroup,setMSpacing,414;arg1
+QCPBarsGroup,setMBars,357;arg1
+QCPColorGradient,QCPColorGradient,36;preset = QCPColorGradient::gpCold
+QCPColorGradient,operator==,330;other
+QCPColorGradient,operator!=,330;other
+QCPColorGradient,setLevelCount,417;n
+QCPColorGradient,setColorStops,373;colorStops
+QCPColorGradient,setColorStopAt,414,341;position,color
+QCPColorGradient,setColorInterpolation,35;interpolation
+QCPColorGradient,setPeriodic,318;enabled
+QCPColorGradient,colorize,412,339,422,417,417,318;data,range,scanLine,n,dataIndexFactor = 1,logarithmic = false
+QCPColorGradient,color,414,339,318;position,range,logarithmic = false
+QCPColorGradient,loadPreset,36;preset
+QCPColorGradient,QCPColorGradient,330;copy
+QCPColorGradient,colorize,412,339,422,417;data,range,scanLine,n
+QCPColorGradient,colorize,412,339,422,417,417;data,range,scanLine,n,dataIndexFactor = 1
+QCPColorGradient,color,414,339;position,range
+QCPColorGradient,setMLevelCount,417;arg1
+QCPColorGradient,setMColorStops,373;arg1
+QCPColorGradient,setMColorInterpolation,35;arg1
+QCPColorGradient,setMPeriodic,318;arg1
+QCPColorGradient,setMColorBuffer,407;arg1
+QCPColorGradient,setMColorBufferInvalidated,318;arg1
+QCPColorMap,qt_metacast,409;arg1
+QCPColorMap,tr,409,409;s,c = 0
+QCPColorMap,trUtf8,409,409;s,c = 0
+QCPColorMap,tr,409,409,417;s,c,n
+QCPColorMap,trUtf8,409,409,417;s,c,n
+QCPColorMap,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPColorMap,QCPColorMap,14,14;keyAxis,valueAxis
+QCPColorMap,setData,39,318;data,copy = false
+QCPColorMap,setDataRange,339;dataRange
+QCPColorMap,setDataScaleType,18;scaleType
+QCPColorMap,setGradient,330;gradient
+QCPColorMap,setInterpolate,318;enabled
+QCPColorMap,setTightBoundary,318;enabled
+QCPColorMap,setColorScale,41;colorScale
+QCPColorMap,rescaleDataRange,318;recalculateDataBounds = false
+QCPColorMap,updateLegendIcon,310,397;transformMode = Qt::SmoothTransformation,thumbSize = QSize(32,18)
+QCPColorMap,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPColorMap,dataRangeChanged,101;newRange
+QCPColorMap,dataScaleTypeChanged,18;scaleType
+QCPColorMap,gradientChanged,32;newGradient
+QCPColorMap,draw,97;painter
+QCPColorMap,drawLegendIcon,97,394;painter,rect
+QCPColorMap,getKeyRange,319,12;foundRange,inSignDomain = sdBoth
+QCPColorMap,getValueRange,319,12;foundRange,inSignDomain = sdBoth
+QCPColorMap,tr,409;s
+QCPColorMap,trUtf8,409;s
+QCPColorMap,setData,39;data
+QCPColorMap,updateLegendIcon,310;transformMode = Qt::SmoothTransformation
+QCPColorMap,selectTest,383,318;pos,onlySelectable
+QCPColorMap,getKeyRange,319;foundRange
+QCPColorMap,getValueRange,319;foundRange
+QCPColorMap,setMDataRange,339;arg1
+QCPColorMap,setMDataScaleType,18;arg1
+QCPColorMap,setMMapData,39;arg1
+QCPColorMap,setMGradient,330;arg1
+QCPColorMap,setMInterpolate,318;arg1
+QCPColorMap,setMTightBoundary,318;arg1
+QCPColorMap,setMColorScale,387;arg1
+QCPColorMap,setMMapImage,352;arg1
+QCPColorMap,setMLegendIcon,380;arg1
+QCPColorMap,setMMapImageInvalidated,318;arg1
+QCPColorMapData,QCPColorMapData,417,417,339,339;keySize,valueSize,keyRange,valueRange
+QCPColorMapData,QCPColorMapData,331;other
+QCPColorMapData,operator=,331;other
+QCPColorMapData,data,414,414;key,value
+QCPColorMapData,cell,417,417;keyIndex,valueIndex
+QCPColorMapData,setSize,417,417;keySize,valueSize
+QCPColorMapData,setKeySize,417;keySize
+QCPColorMapData,setValueSize,417;valueSize
+QCPColorMapData,setRange,339,339;keyRange,valueRange
+QCPColorMapData,setKeyRange,339;keyRange
+QCPColorMapData,setValueRange,339;valueRange
+QCPColorMapData,setData,414,414,414;key,value,z
+QCPColorMapData,setCell,417,417,414;keyIndex,valueIndex,z
+QCPColorMapData,fill,414;z
+QCPColorMapData,coordToCell,414,414,419,419;key,value,keyIndex,valueIndex
+QCPColorMapData,cellToCoord,417,417,416,416;keyIndex,valueIndex,key,value
+QCPColorMapData,setMKeySize,417;arg1
+QCPColorMapData,setMValueSize,417;arg1
+QCPColorMapData,setMKeyRange,339;arg1
+QCPColorMapData,setMValueRange,339;arg1
+QCPColorMapData,setMIsEmpty,318;arg1
+QCPColorMapData,setMData,416;arg1
+QCPColorMapData,setMDataBounds,339;arg1
+QCPColorMapData,setMDataModified,318;arg1
+QCPColorScale,qt_metacast,409;arg1
+QCPColorScale,tr,409,409;s,c = 0
+QCPColorScale,trUtf8,409,409;s,c = 0
+QCPColorScale,tr,409,409,417;s,c,n
+QCPColorScale,trUtf8,409,409,417;s,c,n
+QCPColorScale,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPColorScale,QCPColorScale,114;parentPlot
+QCPColorScale,setType,15;type
+QCPColorScale,setDataRange,339;dataRange
+QCPColorScale,setDataScaleType,18;scaleType
+QCPColorScale,setGradient,330;gradient
+QCPColorScale,setLabel,400;str
+QCPColorScale,setBarWidth,417;width
+QCPColorScale,setRangeDrag,318;enabled
+QCPColorScale,setRangeZoom,318;enabled
+QCPColorScale,rescaleDataRange,318;onlyVisibleMaps
+QCPColorScale,update,85;phase
+QCPColorScale,dataRangeChanged,101;newRange
+QCPColorScale,dataScaleTypeChanged,18;scaleType
+QCPColorScale,gradientChanged,32;newGradient
+QCPColorScale,applyDefaultAntialiasingHint,97;painter
+QCPColorScale,mousePressEvent,185;event
+QCPColorScale,mouseMoveEvent,185;event
+QCPColorScale,mouseReleaseEvent,185;event
+QCPColorScale,wheelEvent,243;event
+QCPColorScale,tr,409;s
+QCPColorScale,trUtf8,409;s
+QCPColorScale,setMType,15;arg1
+QCPColorScale,setMDataRange,339;arg1
+QCPColorScale,setMDataScaleType,18;arg1
+QCPColorScale,setMGradient,330;arg1
+QCPColorScale,setMBarWidth,417;arg1
+QCPColorScale,setMAxisRect,388;arg1
+QCPColorScale,setMColorAxis,384;arg1
+QCPCurve,qt_metacast,409;arg1
+QCPCurve,tr,409,409;s,c = 0
+QCPCurve,trUtf8,409,409;s,c = 0
+QCPCurve,tr,409,409,417;s,c,n
+QCPCurve,trUtf8,409,409,417;s,c,n
+QCPCurve,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPCurve,QCPCurve,14,14;keyAxis,valueAxis
+QCPCurve,setData,176,318;data,copy = false
+QCPCurve,setData,406,406,406;t,key,value
+QCPCurve,setData,406,406;key,value
+QCPCurve,setScatterStyle,340;style
+QCPCurve,setLineStyle,44;style
+QCPCurve,addData,370;dataMap
+QCPCurve,addData,332;data
+QCPCurve,addData,414,414,414;t,key,value
+QCPCurve,addData,414,414;key,value
+QCPCurve,addData,406,406,406;ts,keys,values
+QCPCurve,removeDataBefore,414;t
+QCPCurve,removeDataAfter,414;t
+QCPCurve,removeData,414,414;fromt,tot
+QCPCurve,removeData,414;t
+QCPCurve,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPCurve,draw,97;painter
+QCPCurve,drawLegendIcon,97,394;painter,rect
+QCPCurve,getKeyRange,319,12;foundRange,inSignDomain = sdBoth
+QCPCurve,getValueRange,319,12;foundRange,inSignDomain = sdBoth
+QCPCurve,drawScatterPlot,97,404;painter,pointData
+QCPCurve,getCurveData,235;lineData
+QCPCurve,getRegion,414,414,414,414,414,414;x,y,rectLeft,rectTop,rectRight,rectBottom
+QCPCurve,getOptimizedPoint,417,414,414,414,414,414,414,414,414;prevRegion,prevKey,prevValue,key,value,rectLeft,rectTop,rectRight,rectBottom
+QCPCurve,getOptimizedCornerPoints,417,417,414,414,414,414,414,414,414,414;prevRegion,currentRegion,prevKey,prevValue,key,value,rectLeft,rectTop,rectRight,rectBottom
+QCPCurve,mayTraverse,417,417;prevRegion,currentRegion
+QCPCurve,getTraverse,414,414,414,414,414,414,414,414,201,201;prevKey,prevValue,key,value,rectLeft,rectTop,rectRight,rectBottom,crossA,crossB
+QCPCurve,getTraverseCornerPoints,417,417,414,414,414,414,234,234;prevRegion,currentRegion,rectLeft,rectTop,rectRight,rectBottom,beforeTraverse,afterTraverse
+QCPCurve,pointDistance,383;pixelPoint
+QCPCurve,tr,409;s
+QCPCurve,trUtf8,409;s
+QCPCurve,setData,176;data
+QCPCurve,selectTest,383,318;pos,onlySelectable
+QCPCurve,getKeyRange,319;foundRange
+QCPCurve,getValueRange,319;foundRange
+QCPCurve,setMData,176;arg1
+QCPCurve,setMScatterStyle,340;arg1
+QCPCurve,setMLineStyle,44;arg1
+QCPCurveData,QCPCurveData,414,414,414;t,key,value
+QCPCurveData,QCPCurveData,332;copy
+QCPCurveData,setT,414;arg1
+QCPCurveData,setKey,414;arg1
+QCPCurveData,setValue,414;arg1
+QCPData,QCPData,414,414;key,value
+QCPData,QCPData,333;copy
+QCPData,setKey,414;arg1
+QCPData,setValue,414;arg1
+QCPData,setKeyErrorPlus,414;arg1
+QCPData,setKeyErrorMinus,414;arg1
+QCPData,setValueErrorPlus,414;arg1
+QCPData,setValueErrorMinus,414;arg1
+QCPFinancial,qt_metacast,409;arg1
+QCPFinancial,tr,409,409;s,c = 0
+QCPFinancial,trUtf8,409,409;s,c = 0
+QCPFinancial,tr,409,409,417;s,c,n
+QCPFinancial,trUtf8,409,409,417;s,c,n
+QCPFinancial,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPFinancial,QCPFinancial,14,14;keyAxis,valueAxis
+QCPFinancial,setData,179,318;data,copy = false
+QCPFinancial,setData,406,406,406,406,406;key,open,high,low,close
+QCPFinancial,setChartStyle,51;style
+QCPFinancial,setWidth,414;width
+QCPFinancial,setTwoColored,318;twoColored
+QCPFinancial,setBrushPositive,323;brush
+QCPFinancial,setBrushNegative,323;brush
+QCPFinancial,setPenPositive,379;pen
+QCPFinancial,setPenNegative,379;pen
+QCPFinancial,addData,372;dataMap
+QCPFinancial,addData,335;data
+QCPFinancial,addData,414,414,414,414,414;key,open,high,low,close
+QCPFinancial,addData,406,406,406,406,406;key,open,high,low,close
+QCPFinancial,removeDataBefore,414;key
+QCPFinancial,removeDataAfter,414;key
+QCPFinancial,removeData,414,414;fromKey,toKey
+QCPFinancial,removeData,414;key
+QCPFinancial,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPFinancial,timeSeriesToOhlc,406,406,414,414;time,value,timeBinSize,timeBinOffset = 0
+QCPFinancial,draw,97;painter
+QCPFinancial,drawLegendIcon,97,394;painter,rect
+QCPFinancial,getKeyRange,319,12;foundRange,inSignDomain = sdBoth
+QCPFinancial,getValueRange,319,12;foundRange,inSignDomain = sdBoth
+QCPFinancial,drawOhlcPlot,97,336,336;painter,begin,end
+QCPFinancial,drawCandlestickPlot,97,336,336;painter,begin,end
+QCPFinancial,ohlcSelectTest,383,336,336;pos,begin,end
+QCPFinancial,candlestickSelectTest,383,336,336;pos,begin,end
+QCPFinancial,getVisibleDataBounds,54,54;lower,upper
+QCPFinancial,tr,409;s
+QCPFinancial,trUtf8,409;s
+QCPFinancial,setData,179;data
+QCPFinancial,selectTest,383,318;pos,onlySelectable
+QCPFinancial,timeSeriesToOhlc,406,406,414;time,value,timeBinSize
+QCPFinancial,getKeyRange,319;foundRange
+QCPFinancial,getValueRange,319;foundRange
+QCPFinancial,setMData,179;arg1
+QCPFinancial,setMChartStyle,51;arg1
+QCPFinancial,setMWidth,414;arg1
+QCPFinancial,setMTwoColored,318;arg1
+QCPFinancial,setMBrushPositive,323;arg1
+QCPFinancial,setMBrushNegative,323;arg1
+QCPFinancial,setMPenPositive,379;arg1
+QCPFinancial,setMPenNegative,379;arg1
+QCPFinancialData,QCPFinancialData,414,414,414,414,414;key,open,high,low,close
+QCPFinancialData,QCPFinancialData,335;copy
+QCPFinancialData,setKey,414;arg1
+QCPFinancialData,setOpen,414;arg1
+QCPFinancialData,setHigh,414;arg1
+QCPFinancialData,setLow,414;arg1
+QCPFinancialData,setClose,414;arg1
+QCPGraph,qt_metacast,409;arg1
+QCPGraph,tr,409,409;s,c = 0
+QCPGraph,trUtf8,409,409;s,c = 0
+QCPGraph,tr,409,409,417;s,c,n
+QCPGraph,trUtf8,409,409,417;s,c,n
+QCPGraph,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPGraph,QCPGraph,14,14;keyAxis,valueAxis
+QCPGraph,setData,177,318;data,copy = false
+QCPGraph,setData,406,406;key,value
+QCPGraph,setDataKeyError,406,406,406;key,value,keyError
+QCPGraph,setDataKeyError,406,406,406,406;key,value,keyErrorMinus,keyErrorPlus
+QCPGraph,setDataValueError,406,406,406;key,value,valueError
+QCPGraph,setDataValueError,406,406,406,406;key,value,valueErrorMinus,valueErrorPlus
+QCPGraph,setDataBothError,406,406,406,406;key,value,keyError,valueError
+QCPGraph,setDataBothError,406,406,406,406,406,406;key,value,keyErrorMinus,keyErrorPlus,valueErrorMinus,valueErrorPlus
+QCPGraph,setLineStyle,58;ls
+QCPGraph,setScatterStyle,340;style
+QCPGraph,setErrorType,57;errorType
+QCPGraph,setErrorPen,379;pen
+QCPGraph,setErrorBarSize,414;size
+QCPGraph,setErrorBarSkipSymbol,318;enabled
+QCPGraph,setChannelFillGraph,56;targetGraph
+QCPGraph,setAdaptiveSampling,318;enabled
+QCPGraph,addData,371;dataMap
+QCPGraph,addData,333;data
+QCPGraph,addData,414,414;key,value
+QCPGraph,addData,406,406;keys,values
+QCPGraph,removeDataBefore,414;key
+QCPGraph,removeDataAfter,414;key
+QCPGraph,removeData,414,414;fromKey,toKey
+QCPGraph,removeData,414;key
+QCPGraph,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPGraph,rescaleAxes,318;onlyEnlarge = false
+QCPGraph,rescaleKeyAxis,318;onlyEnlarge = false
+QCPGraph,rescaleValueAxis,318;onlyEnlarge = false
+QCPGraph,rescaleAxes,318,318;onlyEnlarge,includeErrorBars
+QCPGraph,rescaleKeyAxis,318,318;onlyEnlarge,includeErrorBars
+QCPGraph,rescaleValueAxis,318,318;onlyEnlarge,includeErrorBars
+QCPGraph,draw,97;painter
+QCPGraph,drawLegendIcon,97,394;painter,rect
+QCPGraph,getKeyRange,319,12;foundRange,inSignDomain = sdBoth
+QCPGraph,getValueRange,319,12;foundRange,inSignDomain = sdBoth
+QCPGraph,getKeyRange,319,12,318;foundRange,inSignDomain,includeErrors
+QCPGraph,getValueRange,319,12,318;foundRange,inSignDomain,includeErrors
+QCPGraph,drawFill,97,235;painter,lineData
+QCPGraph,drawScatterPlot,97,232;painter,scatterData
+QCPGraph,drawLinePlot,97,235;painter,lineData
+QCPGraph,drawImpulsePlot,97,235;painter,lineData
+QCPGraph,getPreparedData,232,232;lineData,scatterData
+QCPGraph,getPlotData,235,232;lineData,scatterData
+QCPGraph,getScatterPlotData,232;scatterData
+QCPGraph,getLinePlotData,235,232;linePixelData,scatterData
+QCPGraph,getStepLeftPlotData,235,232;linePixelData,scatterData
+QCPGraph,getStepRightPlotData,235,232;linePixelData,scatterData
+QCPGraph,getStepCenterPlotData,235,232;linePixelData,scatterData
+QCPGraph,getImpulsePlotData,235,232;linePixelData,scatterData
+QCPGraph,drawError,97,414,414,333;painter,x,y,data
+QCPGraph,getVisibleDataBounds,49,49;lower,upper
+QCPGraph,countDataInBounds,334,334,417;lower,upper,maxCount
+QCPGraph,addFillBasePoints,235;lineData
+QCPGraph,removeFillBasePoints,235;lineData
+QCPGraph,lowerFillBasePoint,414;lowerKey
+QCPGraph,upperFillBasePoint,414;upperKey
+QCPGraph,getChannelFillPolygon,404;lineData
+QCPGraph,findIndexBelowX,404,414;data,x
+QCPGraph,findIndexAboveX,404,414;data,x
+QCPGraph,findIndexBelowY,404,414;data,y
+QCPGraph,findIndexAboveY,404,414;data,y
+QCPGraph,pointDistance,383;pixelPoint
+QCPGraph,tr,409;s
+QCPGraph,trUtf8,409;s
+QCPGraph,setData,177;data
+QCPGraph,selectTest,383,318;pos,onlySelectable
+QCPGraph,getKeyRange,319;foundRange
+QCPGraph,getValueRange,319;foundRange
+QCPGraph,setMData,177;arg1
+QCPGraph,setMErrorPen,379;arg1
+QCPGraph,setMLineStyle,58;arg1
+QCPGraph,setMScatterStyle,340;arg1
+QCPGraph,setMErrorType,57;arg1
+QCPGraph,setMErrorBarSize,414;arg1
+QCPGraph,setMErrorBarSkipSymbol,318;arg1
+QCPGraph,setMChannelFillGraph,389;arg1
+QCPGraph,setMAdaptiveSampling,318;arg1
+QCPGrid,qt_metacast,409;arg1
+QCPGrid,tr,409,409;s,c = 0
+QCPGrid,trUtf8,409,409;s,c = 0
+QCPGrid,tr,409,409,417;s,c,n
+QCPGrid,trUtf8,409,409,417;s,c,n
+QCPGrid,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPGrid,QCPGrid,14;parentAxis
+QCPGrid,setSubGridVisible,318;visible
+QCPGrid,setAntialiasedSubGrid,318;enabled
+QCPGrid,setAntialiasedZeroLine,318;enabled
+QCPGrid,setPen,379;pen
+QCPGrid,setSubGridPen,379;pen
+QCPGrid,setZeroLinePen,379;pen
+QCPGrid,applyDefaultAntialiasingHint,97;painter
+QCPGrid,draw,97;painter
+QCPGrid,drawGridLines,97;painter
+QCPGrid,drawSubGridLines,97;painter
+QCPGrid,tr,409;s
+QCPGrid,trUtf8,409;s
+QCPGrid,setMSubGridVisible,318;arg1
+QCPGrid,setMAntialiasedSubGrid,318;arg1
+QCPGrid,setMAntialiasedZeroLine,318;arg1
+QCPGrid,setMPen,379;arg1
+QCPGrid,setMSubGridPen,379;arg1
+QCPGrid,setMZeroLinePen,379;arg1
+QCPGrid,setMParentAxis,14;arg1
+QCPItemAnchor,QCPItemAnchor,114,9,399,417;parentPlot,parentItem,name,anchorId = -1
+QCPItemAnchor,addChildX,70;pos
+QCPItemAnchor,removeChildX,70;pos
+QCPItemAnchor,addChildY,70;pos
+QCPItemAnchor,removeChildY,70;pos
+QCPItemAnchor,QCPItemAnchor,114,9,399;parentPlot,parentItem,name
+QCPItemAnchor,setMName,400;arg1
+QCPItemAnchor,setMParentPlot,114;arg1
+QCPItemAnchor,setMParentItem,9;arg1
+QCPItemAnchor,setMAnchorId,417;arg1
+QCPItemAnchor,setMChildrenX,396;arg1
+QCPItemAnchor,setMChildrenY,396;arg1
+QCPItemBracket,qt_metacast,409;arg1
+QCPItemBracket,tr,409,409;s,c = 0
+QCPItemBracket,trUtf8,409,409;s,c = 0
+QCPItemBracket,tr,409,409,417;s,c,n
+QCPItemBracket,trUtf8,409,409,417;s,c,n
+QCPItemBracket,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemBracket,QCPItemBracket,114;parentPlot
+QCPItemBracket,setPen,379;pen
+QCPItemBracket,setSelectedPen,379;pen
+QCPItemBracket,setLength,414;length
+QCPItemBracket,setStyle,63;style
+QCPItemBracket,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemBracket,draw,97;painter
+QCPItemBracket,anchorPixelPoint,417;anchorId
+QCPItemBracket,tr,409;s
+QCPItemBracket,trUtf8,409;s
+QCPItemBracket,selectTest,383,318;pos,onlySelectable
+QCPItemBracket,setMPen,379;arg1
+QCPItemBracket,setMSelectedPen,379;arg1
+QCPItemBracket,setMLength,414;arg1
+QCPItemBracket,setMStyle,63;arg1
+QCPItemCurve,qt_metacast,409;arg1
+QCPItemCurve,tr,409,409;s,c = 0
+QCPItemCurve,trUtf8,409,409;s,c = 0
+QCPItemCurve,tr,409,409,417;s,c,n
+QCPItemCurve,trUtf8,409,409,417;s,c,n
+QCPItemCurve,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemCurve,QCPItemCurve,114;parentPlot
+QCPItemCurve,setPen,379;pen
+QCPItemCurve,setSelectedPen,379;pen
+QCPItemCurve,setHead,337;head
+QCPItemCurve,setTail,337;tail
+QCPItemCurve,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemCurve,draw,97;painter
+QCPItemCurve,tr,409;s
+QCPItemCurve,trUtf8,409;s
+QCPItemCurve,selectTest,383,318;pos,onlySelectable
+QCPItemCurve,setMPen,379;arg1
+QCPItemCurve,setMSelectedPen,379;arg1
+QCPItemCurve,setMHead,337;arg1
+QCPItemCurve,setMTail,337;arg1
+QCPItemEllipse,qt_metacast,409;arg1
+QCPItemEllipse,tr,409,409;s,c = 0
+QCPItemEllipse,trUtf8,409,409;s,c = 0
+QCPItemEllipse,tr,409,409,417;s,c,n
+QCPItemEllipse,trUtf8,409,409,417;s,c,n
+QCPItemEllipse,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemEllipse,QCPItemEllipse,114;parentPlot
+QCPItemEllipse,setPen,379;pen
+QCPItemEllipse,setSelectedPen,379;pen
+QCPItemEllipse,setBrush,323;brush
+QCPItemEllipse,setSelectedBrush,323;brush
+QCPItemEllipse,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemEllipse,draw,97;painter
+QCPItemEllipse,anchorPixelPoint,417;anchorId
+QCPItemEllipse,tr,409;s
+QCPItemEllipse,trUtf8,409;s
+QCPItemEllipse,selectTest,383,318;pos,onlySelectable
+QCPItemEllipse,setMPen,379;arg1
+QCPItemEllipse,setMSelectedPen,379;arg1
+QCPItemEllipse,setMBrush,323;arg1
+QCPItemEllipse,setMSelectedBrush,323;arg1
+QCPItemLine,qt_metacast,409;arg1
+QCPItemLine,tr,409,409;s,c = 0
+QCPItemLine,trUtf8,409,409;s,c = 0
+QCPItemLine,tr,409,409,417;s,c,n
+QCPItemLine,trUtf8,409,409,417;s,c,n
+QCPItemLine,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemLine,QCPItemLine,114;parentPlot
+QCPItemLine,setPen,379;pen
+QCPItemLine,setSelectedPen,379;pen
+QCPItemLine,setHead,337;head
+QCPItemLine,setTail,337;tail
+QCPItemLine,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemLine,draw,97;painter
+QCPItemLine,getRectClippedLine,403,403,393;start,end,rect
+QCPItemLine,tr,409;s
+QCPItemLine,trUtf8,409;s
+QCPItemLine,selectTest,383,318;pos,onlySelectable
+QCPItemLine,setMPen,379;arg1
+QCPItemLine,setMSelectedPen,379;arg1
+QCPItemLine,setMHead,337;arg1
+QCPItemLine,setMTail,337;arg1
+QCPItemPixmap,qt_metacast,409;arg1
+QCPItemPixmap,tr,409,409;s,c = 0
+QCPItemPixmap,trUtf8,409,409;s,c = 0
+QCPItemPixmap,tr,409,409,417;s,c,n
+QCPItemPixmap,trUtf8,409,409,417;s,c,n
+QCPItemPixmap,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemPixmap,QCPItemPixmap,114;parentPlot
+QCPItemPixmap,setPixmap,380;pixmap
+QCPItemPixmap,setScaled,318,250,310;scaled,aspectRatioMode = Qt::KeepAspectRatio,transformationMode = Qt::SmoothTransformation
+QCPItemPixmap,setPen,379;pen
+QCPItemPixmap,setSelectedPen,379;pen
+QCPItemPixmap,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemPixmap,draw,97;painter
+QCPItemPixmap,anchorPixelPoint,417;anchorId
+QCPItemPixmap,updateScaledPixmap,211,318,318;finalRect = QRect(),flipHorz = false,flipVert = false
+QCPItemPixmap,getFinalRect,320,320;flippedHorz = 0,flippedVert = 0
+QCPItemPixmap,tr,409;s
+QCPItemPixmap,trUtf8,409;s
+QCPItemPixmap,setScaled,318;scaled
+QCPItemPixmap,setScaled,318,250;scaled,aspectRatioMode = Qt::KeepAspectRatio
+QCPItemPixmap,selectTest,383,318;pos,onlySelectable
+QCPItemPixmap,updateScaledPixmap,211;finalRect = QRect()
+QCPItemPixmap,updateScaledPixmap,211,318;finalRect = QRect(),flipHorz = false
+QCPItemPixmap,getFinalRect,320;flippedHorz = 0
+QCPItemPixmap,setMPixmap,380;arg1
+QCPItemPixmap,setMScaledPixmap,380;arg1
+QCPItemPixmap,setMScaled,318;arg1
+QCPItemPixmap,setMAspectRatioMode,250;arg1
+QCPItemPixmap,setMTransformationMode,310;arg1
+QCPItemPixmap,setMPen,379;arg1
+QCPItemPixmap,setMSelectedPen,379;arg1
+QCPItemPosition,QCPItemPosition,114,9,399;parentPlot,parentItem,name
+QCPItemPosition,setType,71;type
+QCPItemPosition,setTypeX,71;type
+QCPItemPosition,setTypeY,71;type
+QCPItemPosition,setParentAnchor,60,318;parentAnchor,keepPixelPosition = false
+QCPItemPosition,setParentAnchorX,60,318;parentAnchor,keepPixelPosition = false
+QCPItemPosition,setParentAnchorY,60,318;parentAnchor,keepPixelPosition = false
+QCPItemPosition,setCoords,414,414;key,value
+QCPItemPosition,setCoords,383;coords
+QCPItemPosition,setAxes,14,14;keyAxis,valueAxis
+QCPItemPosition,setAxisRect,23;axisRect
+QCPItemPosition,setPixelPoint,383;pixelPoint
+QCPItemPosition,setParentAnchor,60;parentAnchor
+QCPItemPosition,setParentAnchorX,60;parentAnchor
+QCPItemPosition,setParentAnchorY,60;parentAnchor
+QCPItemPosition,setMPositionTypeX,71;arg1
+QCPItemPosition,setMPositionTypeY,71;arg1
+QCPItemPosition,setMKeyAxis,384;arg1
+QCPItemPosition,setMValueAxis,384;arg1
+QCPItemPosition,setMAxisRect,385;arg1
+QCPItemPosition,setMKey,414;arg1
+QCPItemPosition,setMValue,414;arg1
+QCPItemPosition,setMParentAnchorX,60;arg1
+QCPItemPosition,setMParentAnchorY,60;arg1
+QCPItemRect,qt_metacast,409;arg1
+QCPItemRect,tr,409,409;s,c = 0
+QCPItemRect,trUtf8,409,409;s,c = 0
+QCPItemRect,tr,409,409,417;s,c,n
+QCPItemRect,trUtf8,409,409,417;s,c,n
+QCPItemRect,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemRect,QCPItemRect,114;parentPlot
+QCPItemRect,setPen,379;pen
+QCPItemRect,setSelectedPen,379;pen
+QCPItemRect,setBrush,323;brush
+QCPItemRect,setSelectedBrush,323;brush
+QCPItemRect,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemRect,draw,97;painter
+QCPItemRect,anchorPixelPoint,417;anchorId
+QCPItemRect,tr,409;s
+QCPItemRect,trUtf8,409;s
+QCPItemRect,selectTest,383,318;pos,onlySelectable
+QCPItemRect,setMPen,379;arg1
+QCPItemRect,setMSelectedPen,379;arg1
+QCPItemRect,setMBrush,323;arg1
+QCPItemRect,setMSelectedBrush,323;arg1
+QCPItemStraightLine,qt_metacast,409;arg1
+QCPItemStraightLine,tr,409,409;s,c = 0
+QCPItemStraightLine,trUtf8,409,409;s,c = 0
+QCPItemStraightLine,tr,409,409,417;s,c,n
+QCPItemStraightLine,trUtf8,409,409,417;s,c,n
+QCPItemStraightLine,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemStraightLine,QCPItemStraightLine,114;parentPlot
+QCPItemStraightLine,setPen,379;pen
+QCPItemStraightLine,setSelectedPen,379;pen
+QCPItemStraightLine,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemStraightLine,draw,97;painter
+QCPItemStraightLine,distToStraightLine,403,403,403;point1,vec,point
+QCPItemStraightLine,getRectClippedStraightLine,403,403,393;point1,vec,rect
+QCPItemStraightLine,tr,409;s
+QCPItemStraightLine,trUtf8,409;s
+QCPItemStraightLine,selectTest,383,318;pos,onlySelectable
+QCPItemStraightLine,setMPen,379;arg1
+QCPItemStraightLine,setMSelectedPen,379;arg1
+QCPItemText,qt_metacast,409;arg1
+QCPItemText,tr,409,409;s,c = 0
+QCPItemText,trUtf8,409,409;s,c = 0
+QCPItemText,tr,409,409,417;s,c,n
+QCPItemText,trUtf8,409,409,417;s,c,n
+QCPItemText,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemText,QCPItemText,114;parentPlot
+QCPItemText,setColor,341;color
+QCPItemText,setSelectedColor,341;color
+QCPItemText,setPen,379;pen
+QCPItemText,setSelectedPen,379;pen
+QCPItemText,setBrush,323;brush
+QCPItemText,setSelectedBrush,323;brush
+QCPItemText,setFont,348;font
+QCPItemText,setSelectedFont,348;font
+QCPItemText,setText,400;text
+QCPItemText,setPositionAlignment,131;alignment
+QCPItemText,setTextAlignment,131;alignment
+QCPItemText,setRotation,414;degrees
+QCPItemText,setPadding,374;padding
+QCPItemText,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemText,draw,97;painter
+QCPItemText,anchorPixelPoint,417;anchorId
+QCPItemText,getTextDrawPoint,383,394,131;pos,rect,positionAlignment
+QCPItemText,tr,409;s
+QCPItemText,trUtf8,409;s
+QCPItemText,selectTest,383,318;pos,onlySelectable
+QCPItemText,setMColor,341;arg1
+QCPItemText,setMSelectedColor,341;arg1
+QCPItemText,setMPen,379;arg1
+QCPItemText,setMSelectedPen,379;arg1
+QCPItemText,setMBrush,323;arg1
+QCPItemText,setMSelectedBrush,323;arg1
+QCPItemText,setMFont,348;arg1
+QCPItemText,setMSelectedFont,348;arg1
+QCPItemText,setMText,400;arg1
+QCPItemText,setMPositionAlignment,131;arg1
+QCPItemText,setMTextAlignment,131;arg1
+QCPItemText,setMRotation,414;arg1
+QCPItemText,setMPadding,374;arg1
+QCPItemTracer,qt_metacast,409;arg1
+QCPItemTracer,tr,409,409;s,c = 0
+QCPItemTracer,trUtf8,409,409;s,c = 0
+QCPItemTracer,tr,409,409,417;s,c,n
+QCPItemTracer,trUtf8,409,409,417;s,c,n
+QCPItemTracer,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPItemTracer,QCPItemTracer,114;parentPlot
+QCPItemTracer,setPen,379;pen
+QCPItemTracer,setSelectedPen,379;pen
+QCPItemTracer,setBrush,323;brush
+QCPItemTracer,setSelectedBrush,323;brush
+QCPItemTracer,setSize,414;size
+QCPItemTracer,setStyle,78;style
+QCPItemTracer,setGraph,56;graph
+QCPItemTracer,setGraphKey,414;key
+QCPItemTracer,setInterpolating,318;enabled
+QCPItemTracer,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPItemTracer,draw,97;painter
+QCPItemTracer,tr,409;s
+QCPItemTracer,trUtf8,409;s
+QCPItemTracer,selectTest,383,318;pos,onlySelectable
+QCPItemTracer,setMPen,379;arg1
+QCPItemTracer,setMSelectedPen,379;arg1
+QCPItemTracer,setMBrush,323;arg1
+QCPItemTracer,setMSelectedBrush,323;arg1
+QCPItemTracer,setMSize,414;arg1
+QCPItemTracer,setMStyle,78;arg1
+QCPItemTracer,setMGraph,56;arg1
+QCPItemTracer,setMGraphKey,414;arg1
+QCPItemTracer,setMInterpolating,318;arg1
+QCPLayer,qt_metacast,409;arg1
+QCPLayer,tr,409,409;s,c = 0
+QCPLayer,trUtf8,409,409;s,c = 0
+QCPLayer,tr,409,409,417;s,c,n
+QCPLayer,trUtf8,409,409,417;s,c,n
+QCPLayer,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLayer,QCPLayer,114,400;parentPlot,layerName
+QCPLayer,setVisible,318;visible
+QCPLayer,addChild,81,318;layerable,prepend
+QCPLayer,removeChild,81;layerable
+QCPLayer,tr,409;s
+QCPLayer,trUtf8,409;s
+QCPLayer,setMParentPlot,114;arg1
+QCPLayer,setMName,400;arg1
+QCPLayer,setMIndex,417;arg1
+QCPLayer,setMChildren,362;arg1
+QCPLayer,setMVisible,318;arg1
+QCPLayerable,qt_metacast,409;arg1
+QCPLayerable,tr,409,409;s,c = 0
+QCPLayerable,trUtf8,409,409;s,c = 0
+QCPLayerable,tr,409,409,417;s,c,n
+QCPLayerable,trUtf8,409,409,417;s,c,n
+QCPLayerable,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLayerable,QCPLayerable,114,222,81;plot,targetLayer = QString(),parentLayerable = 0
+QCPLayerable,setVisible,318;on
+QCPLayerable,setLayer,79;layer
+QCPLayerable,setLayer,400;layerName
+QCPLayerable,setAntialiased,318;enabled
+QCPLayerable,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPLayerable,layerChanged,79;newLayer
+QCPLayerable,parentPlotInitialized,114;parentPlot
+QCPLayerable,applyDefaultAntialiasingHint,97;painter
+QCPLayerable,draw,97;painter
+QCPLayerable,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPLayerable,deselectEvent,320;selectionStateChanged
+QCPLayerable,initializeParentPlot,114;parentPlot
+QCPLayerable,setParentLayerable,81;parentLayerable
+QCPLayerable,moveToLayer,79,318;layer,prepend
+QCPLayerable,applyAntialiasingHint,97,318,5;painter,localAntialiased,overrideElement
+QCPLayerable,tr,409;s
+QCPLayerable,trUtf8,409;s
+QCPLayerable,QCPLayerable,114;plot
+QCPLayerable,QCPLayerable,114,222;plot,targetLayer = QString()
+QCPLayerable,selectTest,383,318;pos,onlySelectable
+QCPLayerable,setMVisible,318;arg1
+QCPLayerable,setMParentPlot,114;arg1
+QCPLayerable,setMParentLayerable,390;arg1
+QCPLayerable,setMLayer,79;arg1
+QCPLayerable,setMAntialiased,318;arg1
+QCPLayout,qt_metacast,409;arg1
+QCPLayout,tr,409,409;s,c = 0
+QCPLayout,trUtf8,409,409;s,c = 0
+QCPLayout,tr,409,409,417;s,c,n
+QCPLayout,trUtf8,409,409,417;s,c,n
+QCPLayout,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLayout,update,85;phase
+QCPLayout,elements,318;recursive
+QCPLayout,elementAt,417;index
+QCPLayout,takeAt,417;index
+QCPLayout,take,84;element
+QCPLayout,removeAt,417;index
+QCPLayout,remove,84;element
+QCPLayout,adoptElement,84;el
+QCPLayout,releaseElement,84;el
+QCPLayout,getSectionSizes,240,240,238,417;maxSizes,minSizes,stretchFactors,totalSize
+QCPLayout,tr,409;s
+QCPLayout,trUtf8,409;s
+QCPLayoutElement,qt_metacast,409;arg1
+QCPLayoutElement,tr,409,409;s,c = 0
+QCPLayoutElement,trUtf8,409,409;s,c = 0
+QCPLayoutElement,tr,409,409,417;s,c,n
+QCPLayoutElement,trUtf8,409,409,417;s,c,n
+QCPLayoutElement,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLayoutElement,QCPLayoutElement,114;parentPlot = 0
+QCPLayoutElement,marginGroup,7;side
+QCPLayoutElement,setOuterRect,393;rect
+QCPLayoutElement,setMargins,374;margins
+QCPLayoutElement,setMinimumMargins,374;margins
+QCPLayoutElement,setAutoMargins,125;sides
+QCPLayoutElement,setMinimumSize,397;size
+QCPLayoutElement,setMinimumSize,417,417;width,height
+QCPLayoutElement,setMaximumSize,397;size
+QCPLayoutElement,setMaximumSize,417,417;width,height
+QCPLayoutElement,setMarginGroup,125,96;sides,group
+QCPLayoutElement,update,85;phase
+QCPLayoutElement,elements,318;recursive
+QCPLayoutElement,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPLayoutElement,calculateAutoMargin,7;side
+QCPLayoutElement,mousePressEvent,185;event
+QCPLayoutElement,mouseMoveEvent,185;event
+QCPLayoutElement,mouseReleaseEvent,185;event
+QCPLayoutElement,mouseDoubleClickEvent,185;event
+QCPLayoutElement,wheelEvent,243;event
+QCPLayoutElement,applyDefaultAntialiasingHint,97;painter
+QCPLayoutElement,draw,97;painter
+QCPLayoutElement,parentPlotInitialized,114;parentPlot
+QCPLayoutElement,tr,409;s
+QCPLayoutElement,trUtf8,409;s
+QCPLayoutElement,selectTest,383,318;pos,onlySelectable
+QCPLayoutElement,setMParentLayout,82;arg1
+QCPLayoutElement,setMMinimumSize,397;arg1
+QCPLayoutElement,setMMaximumSize,397;arg1
+QCPLayoutElement,setMRect,393;arg1
+QCPLayoutElement,setMOuterRect,393;arg1
+QCPLayoutElement,setMMargins,374;arg1
+QCPLayoutElement,setMMinimumMargins,374;arg1
+QCPLayoutElement,setMAutoMargins,125;arg1
+QCPLayoutElement,setMMarginGroups,349;arg1
+QCPLayoutGrid,qt_metacast,409;arg1
+QCPLayoutGrid,tr,409,409;s,c = 0
+QCPLayoutGrid,trUtf8,409,409;s,c = 0
+QCPLayoutGrid,tr,409,409,417;s,c,n
+QCPLayoutGrid,trUtf8,409,409,417;s,c,n
+QCPLayoutGrid,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLayoutGrid,setColumnStretchFactor,417,414;column,factor
+QCPLayoutGrid,setColumnStretchFactors,368;factors
+QCPLayoutGrid,setRowStretchFactor,417,414;row,factor
+QCPLayoutGrid,setRowStretchFactors,368;factors
+QCPLayoutGrid,setColumnSpacing,417;pixels
+QCPLayoutGrid,setRowSpacing,417;pixels
+QCPLayoutGrid,elementAt,417;index
+QCPLayoutGrid,takeAt,417;index
+QCPLayoutGrid,take,84;element
+QCPLayoutGrid,elements,318;recursive
+QCPLayoutGrid,element,417,417;row,column
+QCPLayoutGrid,addElement,417,417,84;row,column,element
+QCPLayoutGrid,hasElement,417,417;row,column
+QCPLayoutGrid,expandTo,417,417;newRowCount,newColumnCount
+QCPLayoutGrid,insertRow,417;newIndex
+QCPLayoutGrid,insertColumn,417;newIndex
+QCPLayoutGrid,getMinimumRowColSizes,241,241;minColWidths,minRowHeights
+QCPLayoutGrid,getMaximumRowColSizes,241,241;maxColWidths,maxRowHeights
+QCPLayoutGrid,tr,409;s
+QCPLayoutGrid,trUtf8,409;s
+QCPLayoutGrid,setMElements,366;arg1
+QCPLayoutGrid,setMColumnStretchFactors,368;arg1
+QCPLayoutGrid,setMRowStretchFactors,368;arg1
+QCPLayoutGrid,setMColumnSpacing,417;arg1
+QCPLayoutGrid,setMRowSpacing,417;arg1
+QCPLayoutInset,qt_metacast,409;arg1
+QCPLayoutInset,tr,409,409;s,c = 0
+QCPLayoutInset,trUtf8,409,409;s,c = 0
+QCPLayoutInset,tr,409,409,417;s,c,n
+QCPLayoutInset,trUtf8,409,409,417;s,c,n
+QCPLayoutInset,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLayoutInset,insetPlacement,417;index
+QCPLayoutInset,insetAlignment,417;index
+QCPLayoutInset,insetRect,417;index
+QCPLayoutInset,setInsetPlacement,417,88;index,placement
+QCPLayoutInset,setInsetAlignment,417,131;index,alignment
+QCPLayoutInset,setInsetRect,417,394;index,rect
+QCPLayoutInset,elementAt,417;index
+QCPLayoutInset,takeAt,417;index
+QCPLayoutInset,take,84;element
+QCPLayoutInset,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPLayoutInset,addElement,84,131;element,alignment
+QCPLayoutInset,addElement,84,394;element,rect
+QCPLayoutInset,tr,409;s
+QCPLayoutInset,trUtf8,409;s
+QCPLayoutInset,selectTest,383,318;pos,onlySelectable
+QCPLayoutInset,setMElements,363;arg1
+QCPLayoutInset,setMInsetPlacement,364;arg1
+QCPLayoutInset,setMInsetAlignment,365;arg1
+QCPLayoutInset,setMInsetRect,367;arg1
+QCPLegend,qt_metacast,409;arg1
+QCPLegend,tr,409,409;s,c = 0
+QCPLegend,trUtf8,409,409;s,c = 0
+QCPLegend,tr,409,409,417;s,c,n
+QCPLegend,trUtf8,409,409,417;s,c,n
+QCPLegend,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPLegend,setBorderPen,379;pen
+QCPLegend,setBrush,323;brush
+QCPLegend,setFont,348;font
+QCPLegend,setTextColor,341;color
+QCPLegend,setIconSize,397;size
+QCPLegend,setIconSize,417,417;width,height
+QCPLegend,setIconTextPadding,417;padding
+QCPLegend,setIconBorderPen,379;pen
+QCPLegend,setSelectableParts,347;selectableParts
+QCPLegend,setSelectedParts,347;selectedParts
+QCPLegend,setSelectedBorderPen,379;pen
+QCPLegend,setSelectedIconBorderPen,379;pen
+QCPLegend,setSelectedBrush,323;brush
+QCPLegend,setSelectedFont,348;font
+QCPLegend,setSelectedTextColor,341;color
+QCPLegend,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPLegend,item,417;index
+QCPLegend,itemWithPlottable,325;plottable
+QCPLegend,hasItem,10;item
+QCPLegend,hasItemWithPlottable,325;plottable
+QCPLegend,addItem,10;item
+QCPLegend,removeItem,417;index
+QCPLegend,removeItem,10;item
+QCPLegend,selectionChanged,91;parts
+QCPLegend,selectableChanged,91;parts
+QCPLegend,parentPlotInitialized,114;parentPlot
+QCPLegend,applyDefaultAntialiasingHint,97;painter
+QCPLegend,draw,97;painter
+QCPLegend,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPLegend,deselectEvent,320;selectionStateChanged
+QCPLegend,tr,409;s
+QCPLegend,trUtf8,409;s
+QCPLegend,selectTest,383,318;pos,onlySelectable
+QCPLegend,setMBorderPen,379;arg1
+QCPLegend,setMIconBorderPen,379;arg1
+QCPLegend,setMBrush,323;arg1
+QCPLegend,setMFont,348;arg1
+QCPLegend,setMTextColor,341;arg1
+QCPLegend,setMIconSize,397;arg1
+QCPLegend,setMIconTextPadding,417;arg1
+QCPLegend,setMSelectedParts,129;arg1
+QCPLegend,setMSelectableParts,129;arg1
+QCPLegend,setMSelectedBorderPen,379;arg1
+QCPLegend,setMSelectedIconBorderPen,379;arg1
+QCPLegend,setMSelectedBrush,323;arg1
+QCPLegend,setMSelectedFont,348;arg1
+QCPLegend,setMSelectedTextColor,341;arg1
+QCPLineEnding,QCPLineEnding,95,414,414,318;style,width = 8,length = 10,inverted = false
+QCPLineEnding,setStyle,95;style
+QCPLineEnding,setWidth,414;width
+QCPLineEnding,setLength,414;length
+QCPLineEnding,setInverted,318;inverted
+QCPLineEnding,draw,97,403,403;painter,pos,dir
+QCPLineEnding,draw,97,403,414;painter,pos,angle
+QCPLineEnding,QCPLineEnding,337;copy
+QCPLineEnding,QCPLineEnding,95;style
+QCPLineEnding,QCPLineEnding,95,414;style,width = 8
+QCPLineEnding,QCPLineEnding,95,414,414;style,width = 8,length = 10
+QCPLineEnding,setMStyle,95;arg1
+QCPLineEnding,setMWidth,414;arg1
+QCPLineEnding,setMLength,414;arg1
+QCPLineEnding,setMInverted,318;arg1
+QCPMarginGroup,qt_metacast,409;arg1
+QCPMarginGroup,tr,409,409;s,c = 0
+QCPMarginGroup,trUtf8,409,409;s,c = 0
+QCPMarginGroup,tr,409,409,417;s,c,n
+QCPMarginGroup,trUtf8,409,409,417;s,c,n
+QCPMarginGroup,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPMarginGroup,QCPMarginGroup,114;parentPlot
+QCPMarginGroup,elements,7;side
+QCPMarginGroup,commonMargin,7;side
+QCPMarginGroup,addChild,7,84;side,element
+QCPMarginGroup,removeChild,7,84;side,element
+QCPMarginGroup,tr,409;s
+QCPMarginGroup,trUtf8,409;s
+QCPMarginGroup,setMParentPlot,114;arg1
+QCPMarginGroup,setMChildren,350;arg1
+QCPPainter,QCPPainter,188;device
+QCPPainter,setAntialiasing,318;enabled
+QCPPainter,setMode,98,318;mode,enabled = true
+QCPPainter,setModes,130;modes
+QCPPainter,begin,188;device
+QCPPainter,setPen,379;pen
+QCPPainter,setPen,341;color
+QCPPainter,setPen,294;penStyle
+QCPPainter,drawLine,354;line
+QCPPainter,drawLine,383,383;p1,p2
+QCPPainter,setMode,98;mode
+QCPPainter,setMModes,130;arg1
+QCPPainter,setMIsAntialiasing,318;arg1
+QCPPainter,setMAntialiasingStack,398;arg1
+QCPPlotTitle,qt_metacast,409;arg1
+QCPPlotTitle,tr,409,409;s,c = 0
+QCPPlotTitle,trUtf8,409,409;s,c = 0
+QCPPlotTitle,tr,409,409,417;s,c,n
+QCPPlotTitle,trUtf8,409,409,417;s,c,n
+QCPPlotTitle,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPPlotTitle,QCPPlotTitle,114;parentPlot
+QCPPlotTitle,QCPPlotTitle,114,400;parentPlot,text
+QCPPlotTitle,setText,400;text
+QCPPlotTitle,setFont,348;font
+QCPPlotTitle,setTextColor,341;color
+QCPPlotTitle,setSelectedFont,348;font
+QCPPlotTitle,setSelectedTextColor,341;color
+QCPPlotTitle,setSelectable,318;selectable
+QCPPlotTitle,setSelected,318;selected
+QCPPlotTitle,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPPlotTitle,selectionChanged,318;selected
+QCPPlotTitle,selectableChanged,318;selectable
+QCPPlotTitle,applyDefaultAntialiasingHint,97;painter
+QCPPlotTitle,draw,97;painter
+QCPPlotTitle,selectEvent,185,318,402,320;event,additive,details,selectionStateChanged
+QCPPlotTitle,deselectEvent,320;selectionStateChanged
+QCPPlotTitle,tr,409;s
+QCPPlotTitle,trUtf8,409;s
+QCPPlotTitle,selectTest,383,318;pos,onlySelectable
+QCPPlotTitle,setMText,400;arg1
+QCPPlotTitle,setMFont,348;arg1
+QCPPlotTitle,setMTextColor,341;arg1
+QCPPlotTitle,setMSelectedFont,348;arg1
+QCPPlotTitle,setMSelectedTextColor,341;arg1
+QCPPlotTitle,setMTextBoundingRect,393;arg1
+QCPPlotTitle,setMSelectable,318;arg1
+QCPPlotTitle,setMSelected,318;arg1
+QCPPlottableLegendItem,qt_metacast,409;arg1
+QCPPlottableLegendItem,tr,409,409;s,c = 0
+QCPPlottableLegendItem,trUtf8,409,409;s,c = 0
+QCPPlottableLegendItem,tr,409,409,417;s,c,n
+QCPPlottableLegendItem,trUtf8,409,409,417;s,c,n
+QCPPlottableLegendItem,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPPlottableLegendItem,QCPPlottableLegendItem,89,11;parent,plottable
+QCPPlottableLegendItem,draw,97;painter
+QCPPlottableLegendItem,tr,409;s
+QCPPlottableLegendItem,trUtf8,409;s
+QCPPlottableLegendItem,setMPlottable,11;arg1
+QCPRange,QCPRange,414,414;lower,upper
+QCPRange,operator==,339;other
+QCPRange,operator!=,339;other
+QCPRange,operator+=,411;value
+QCPRange,operator-=,411;value
+QCPRange,operator*=,411;value
+QCPRange,operator/=,411;value
+QCPRange,expand,339;otherRange
+QCPRange,expanded,339;otherRange
+QCPRange,contains,414;value
+QCPRange,validRange,414,414;lower,upper
+QCPRange,validRange,339;range
+QCPRange,QCPRange,339;copy
+QCPRange,setLower,414;arg1
+QCPRange,setUpper,414;arg1
+QCPScatterStyle,QCPScatterStyle,107,414;shape,size = 6
+QCPScatterStyle,QCPScatterStyle,107,341,414;shape,color,size
+QCPScatterStyle,QCPScatterStyle,107,341,341,414;shape,color,fill,size
+QCPScatterStyle,QCPScatterStyle,107,379,323,414;shape,pen,brush,size
+QCPScatterStyle,QCPScatterStyle,380;pixmap
+QCPScatterStyle,QCPScatterStyle,377,379,323,414;customPath,pen,brush = Qt::NoBrush,size = 6
+QCPScatterStyle,setSize,414;size
+QCPScatterStyle,setShape,107;shape
+QCPScatterStyle,setPen,379;pen
+QCPScatterStyle,setBrush,323;brush
+QCPScatterStyle,setPixmap,380;pixmap
+QCPScatterStyle,setCustomPath,377;customPath
+QCPScatterStyle,applyTo,97,379;painter,defaultPen
+QCPScatterStyle,drawShape,97,200;painter,pos
+QCPScatterStyle,drawShape,97,414,414;painter,x,y
+QCPScatterStyle,QCPScatterStyle,340;copy
+QCPScatterStyle,QCPScatterStyle,107;shape
+QCPScatterStyle,QCPScatterStyle,377,379;customPath,pen
+QCPScatterStyle,QCPScatterStyle,377,379,323;customPath,pen,brush = Qt::NoBrush
+QCPScatterStyle,setMSize,414;arg1
+QCPScatterStyle,setMShape,107;arg1
+QCPScatterStyle,setMPen,379;arg1
+QCPScatterStyle,setMBrush,323;arg1
+QCPScatterStyle,setMPixmap,380;arg1
+QCPScatterStyle,setMCustomPath,377;arg1
+QCPScatterStyle,setMPenDefined,318;arg1
+QCPStatisticalBox,qt_metacast,409;arg1
+QCPStatisticalBox,tr,409,409;s,c = 0
+QCPStatisticalBox,trUtf8,409,409;s,c = 0
+QCPStatisticalBox,tr,409,409,417;s,c,n
+QCPStatisticalBox,trUtf8,409,409,417;s,c,n
+QCPStatisticalBox,qt_metacall,184,417,424;arg1,arg2,arg3
+QCPStatisticalBox,QCPStatisticalBox,14,14;keyAxis,valueAxis
+QCPStatisticalBox,setKey,414;key
+QCPStatisticalBox,setMinimum,414;value
+QCPStatisticalBox,setLowerQuartile,414;value
+QCPStatisticalBox,setMedian,414;value
+QCPStatisticalBox,setUpperQuartile,414;value
+QCPStatisticalBox,setMaximum,414;value
+QCPStatisticalBox,setOutliers,406;values
+QCPStatisticalBox,setData,414,414,414,414,414,414;key,minimum,lowerQuartile,median,upperQuartile,maximum
+QCPStatisticalBox,setWidth,414;width
+QCPStatisticalBox,setWhiskerWidth,414;width
+QCPStatisticalBox,setWhiskerPen,379;pen
+QCPStatisticalBox,setWhiskerBarPen,379;pen
+QCPStatisticalBox,setMedianPen,379;pen
+QCPStatisticalBox,setOutlierStyle,340;style
+QCPStatisticalBox,selectTest,383,318,231;pos,onlySelectable,details = 0
+QCPStatisticalBox,draw,97;painter
+QCPStatisticalBox,drawLegendIcon,97,394;painter,rect
+QCPStatisticalBox,getKeyRange,319,12;foundRange,inSignDomain = sdBoth
+QCPStatisticalBox,getValueRange,319,12;foundRange,inSignDomain = sdBoth
+QCPStatisticalBox,drawQuartileBox,97,214;painter,quartileBox = 0
+QCPStatisticalBox,drawMedian,97;painter
+QCPStatisticalBox,drawWhiskers,97;painter
+QCPStatisticalBox,drawOutliers,97;painter
+QCPStatisticalBox,tr,409;s
+QCPStatisticalBox,trUtf8,409;s
+QCPStatisticalBox,selectTest,383,318;pos,onlySelectable
+QCPStatisticalBox,getKeyRange,319;foundRange
+QCPStatisticalBox,getValueRange,319;foundRange
+QCPStatisticalBox,drawQuartileBox,97;painter
+QCPStatisticalBox,setMOutliers,406;arg1
+QCPStatisticalBox,setMKey,414;arg1
+QCPStatisticalBox,setMMinimum,414;arg1
+QCPStatisticalBox,setMLowerQuartile,414;arg1
+QCPStatisticalBox,setMMedian,414;arg1
+QCPStatisticalBox,setMUpperQuartile,414;arg1
+QCPStatisticalBox,setMMaximum,414;arg1
+QCPStatisticalBox,setMWidth,414;arg1
+QCPStatisticalBox,setMWhiskerWidth,414;arg1
+QCPStatisticalBox,setMWhiskerPen,379;arg1
+QCPStatisticalBox,setMWhiskerBarPen,379;arg1
+QCPStatisticalBox,setMMedianPen,379;arg1
+QCPStatisticalBox,setMOutlierStyle,340;arg1
+QCustomPlot,qt_metacast,409;arg1
+QCustomPlot,tr,409,409;s,c = 0
+QCustomPlot,trUtf8,409,409;s,c = 0
+QCustomPlot,tr,409,409,417;s,c,n
+QCustomPlot,trUtf8,409,409,417;s,c,n
+QCustomPlot,qt_metacall,184,417,424;arg1,arg2,arg3
+QCustomPlot,QCustomPlot,244;parent = 0
+QCustomPlot,setViewport,393;rect
+QCustomPlot,setBackground,380;pm
+QCustomPlot,setBackground,380,318,250;pm,scaled,mode = Qt::KeepAspectRatioByExpanding
+QCustomPlot,setBackground,323;brush
+QCustomPlot,setBackgroundScaled,318;scaled
+QCustomPlot,setBackgroundScaledMode,250;mode
+QCustomPlot,setAntialiasedElements,342;antialiasedElements
+QCustomPlot,setAntialiasedElement,5,318;antialiasedElement,enabled = true
+QCustomPlot,setNotAntialiasedElements,342;notAntialiasedElements
+QCustomPlot,setNotAntialiasedElement,5,318;notAntialiasedElement,enabled = true
+QCustomPlot,setAutoAddPlottableToLegend,318;on
+QCustomPlot,setInteractions,344;interactions
+QCustomPlot,setInteraction,324,318;interaction,enabled = true
+QCustomPlot,setSelectionTolerance,417;pixels
+QCustomPlot,setNoAntialiasingOnDrag,318;enabled
+QCustomPlot,setPlottingHints,345;hints
+QCustomPlot,setPlottingHint,8,318;hint,enabled = true
+QCustomPlot,setMultiSelectModifier,284;modifier
+QCustomPlot,plottable,417;index
+QCustomPlot,addPlottable,11;plottable
+QCustomPlot,removePlottable,11;plottable
+QCustomPlot,removePlottable,417;index
+QCustomPlot,plottableAt,383,318;pos,onlySelectable = false
+QCustomPlot,hasPlottable,11;plottable
+QCustomPlot,graph,417;index
+QCustomPlot,addGraph,14,14;keyAxis = 0,valueAxis = 0
+QCustomPlot,removeGraph,56;graph
+QCustomPlot,removeGraph,417;index
+QCustomPlot,item,417;index
+QCustomPlot,addItem,9;item
+QCustomPlot,removeItem,9;item
+QCustomPlot,removeItem,417;index
+QCustomPlot,itemAt,383,318;pos,onlySelectable = false
+QCustomPlot,hasItem,9;item
+QCustomPlot,layer,400;name
+QCustomPlot,layer,417;index
+QCustomPlot,setCurrentLayer,400;name
+QCustomPlot,setCurrentLayer,79;layer
+QCustomPlot,addLayer,400,79,115;name,otherLayer = 0,insertMode = QCustomPlot::limAbove
+QCustomPlot,removeLayer,79;layer
+QCustomPlot,moveLayer,79,79,115;layer,otherLayer,insertMode = QCustomPlot::limAbove
+QCustomPlot,axisRect,417;index = 0
+QCustomPlot,layoutElementAt,383;pos
+QCustomPlot,rescaleAxes,318;onlyVisiblePlottables = false
+QCustomPlot,savePdf,400,318,417,417,400,400;fileName,noCosmeticPen = false,width = 0,height = 0,pdfCreator = QString(),pdfTitle = QString()
+QCustomPlot,savePng,400,417,417,414,417;fileName,width = 0,height = 0,scale = 1.0,quality = -1
+QCustomPlot,saveJpg,400,417,417,414,417;fileName,width = 0,height = 0,scale = 1.0,quality = -1
+QCustomPlot,saveBmp,400,417,417,414;fileName,width = 0,height = 0,scale = 1.0
+QCustomPlot,saveRastered,400,417,417,414,409,417;fileName,width,height,scale,format,quality = -1
+QCustomPlot,toPixmap,417,417,414;width = 0,height = 0,scale = 1.0
+QCustomPlot,toPainter,97,417,417;painter,width = 0,height = 0
+QCustomPlot,replot,116;refreshPriority = QCustomPlot::rpHint
+QCustomPlot,mouseDoubleClick,185;event
+QCustomPlot,mousePress,185;event
+QCustomPlot,mouseMove,185;event
+QCustomPlot,mouseRelease,185;event
+QCustomPlot,mouseWheel,243;event
+QCustomPlot,plottableClick,11,185;plottable,event
+QCustomPlot,plottableDoubleClick,11,185;plottable,event
+QCustomPlot,itemClick,9,185;item,event
+QCustomPlot,itemDoubleClick,9,185;item,event
+QCustomPlot,axisClick,14,19,185;axis,part,event
+QCustomPlot,axisDoubleClick,14,19,185;axis,part,event
+QCustomPlot,legendClick,89,10,185;legend,item,event
+QCustomPlot,legendDoubleClick,89,10,185;legend,item,event
+QCustomPlot,titleClick,185,99;event,title
+QCustomPlot,titleDoubleClick,185,99;event,title
+QCustomPlot,paintEvent,191;event
+QCustomPlot,resizeEvent,216;event
+QCustomPlot,mouseDoubleClickEvent,185;event
+QCustomPlot,mousePressEvent,185;event
+QCustomPlot,mouseMoveEvent,185;event
+QCustomPlot,mouseReleaseEvent,185;event
+QCustomPlot,wheelEvent,243;event
+QCustomPlot,draw,97;painter
+QCustomPlot,axisRemoved,14;axis
+QCustomPlot,legendRemoved,89;legend
+QCustomPlot,layerableAt,383,318,231;pos,onlySelectable,selectionDetails = 0
+QCustomPlot,drawBackground,97;painter
+QCustomPlot,tr,409;s
+QCustomPlot,trUtf8,409;s
+QCustomPlot,setBackground,380,318;pm,scaled
+QCustomPlot,setAntialiasedElement,5;antialiasedElement
+QCustomPlot,setNotAntialiasedElement,5;notAntialiasedElement
+QCustomPlot,setInteraction,324;interaction
+QCustomPlot,setPlottingHint,8;hint
+QCustomPlot,plottableAt,383;pos
+QCustomPlot,addGraph,14;keyAxis = 0
+QCustomPlot,itemAt,383;pos
+QCustomPlot,addLayer,400;name
+QCustomPlot,addLayer,400,79;name,otherLayer = 0
+QCustomPlot,moveLayer,79,79;layer,otherLayer
+QCustomPlot,savePdf,400;fileName
+QCustomPlot,savePdf,400,318;fileName,noCosmeticPen = false
+QCustomPlot,savePdf,400,318,417;fileName,noCosmeticPen = false,width = 0
+QCustomPlot,savePdf,400,318,417,417;fileName,noCosmeticPen = false,width = 0,height = 0
+QCustomPlot,savePdf,400,318,417,417,400;fileName,noCosmeticPen = false,width = 0,height = 0,pdfCreator = QString()
+QCustomPlot,savePng,400;fileName
+QCustomPlot,savePng,400,417;fileName,width = 0
+QCustomPlot,savePng,400,417,417;fileName,width = 0,height = 0
+QCustomPlot,savePng,400,417,417,414;fileName,width = 0,height = 0,scale = 1.0
+QCustomPlot,saveJpg,400;fileName
+QCustomPlot,saveJpg,400,417;fileName,width = 0
+QCustomPlot,saveJpg,400,417,417;fileName,width = 0,height = 0
+QCustomPlot,saveJpg,400,417,417,414;fileName,width = 0,height = 0,scale = 1.0
+QCustomPlot,saveBmp,400;fileName
+QCustomPlot,saveBmp,400,417;fileName,width = 0
+QCustomPlot,saveBmp,400,417,417;fileName,width = 0,height = 0
+QCustomPlot,saveRastered,400,417,417,414,409;fileName,width,height,scale,format
+QCustomPlot,toPixmap,417;width = 0
+QCustomPlot,toPixmap,417,417;width = 0,height = 0
+QCustomPlot,toPainter,97;painter
+QCustomPlot,toPainter,97,417;painter,width = 0
+QCustomPlot,layerableAt,383,318;pos,onlySelectable
+QCustomPlot,setXAxis,14;arg1
+QCustomPlot,setYAxis,14;arg1
+QCustomPlot,setXAxis2,14;arg1
+QCustomPlot,setYAxis2,14;arg1
+QCustomPlot,setLegend,89;arg1
+QCustomPlot,setMViewport,393;arg1
+QCustomPlot,setMPlotLayout,86;arg1
+QCustomPlot,setMAutoAddPlottableToLegend,318;arg1
+QCustomPlot,setMPlottables,356;arg1
+QCustomPlot,setMGraphs,358;arg1
+QCustomPlot,setMItems,355;arg1
+QCustomPlot,setMLayers,361;arg1
+QCustomPlot,setMAntialiasedElements,123;arg1
+QCustomPlot,setMNotAntialiasedElements,123;arg1
+QCustomPlot,setMInteractions,124;arg1
+QCustomPlot,setMSelectionTolerance,417;arg1
+QCustomPlot,setMNoAntialiasingOnDrag,318;arg1
+QCustomPlot,setMBackgroundBrush,323;arg1
+QCustomPlot,setMBackgroundPixmap,380;arg1
+QCustomPlot,setMScaledBackgroundPixmap,380;arg1
+QCustomPlot,setMBackgroundScaled,318;arg1
+QCustomPlot,setMBackgroundScaledMode,250;arg1
+QCustomPlot,setMCurrentLayer,79;arg1
+QCustomPlot,setMPlottingHints,126;arg1
+QCustomPlot,setMMultiSelectModifier,284;arg1
+QCustomPlot,setMPaintBuffer,380;arg1
+QCustomPlot,setMMousePressPos,381;arg1
+QCustomPlot,setMMouseEventElement,391;arg1
+QCustomPlot,setMReplotting,318;arg1
+QGlobalSpace,strncmp,409,409,420;arg1,arg2,arg3
+QGlobalSpace,bom,228;s
+QGlobalSpace,forcesign,228;s
+QGlobalSpace,fixed,228;s
+QGlobalSpace,noshowbase,228;s
+QGlobalSpace,operator|,19,417;f1,f2
+QGlobalSpace,strlen,409;arg1
+QGlobalSpace,operator|,6,417;f1,f2
+QGlobalSpace,uppercasedigits,228;s
+QGlobalSpace,bin,228;s
+QGlobalSpace,showbase,228;s
+QGlobalSpace,operator*,414,339;value,range
+QGlobalSpace,memcmp,413,413,420;arg1,arg2,arg3
+QGlobalSpace,strcat,321,409;arg1,arg2
+QGlobalSpace,noforcesign,228;s
+QGlobalSpace,operator-,339,414;range,value
+QGlobalSpace,memcpy,423,413,420;arg1,arg2,arg3
+QGlobalSpace,operator|,19,19;f1,f2
+QGlobalSpace,strdup,409;arg1
+QGlobalSpace,lowercasebase,228;s
+QGlobalSpace,operator|,7,125;f1,f2
+QGlobalSpace,operator|,5,5;f1,f2
+QGlobalSpace,uppercasebase,228;s
+QGlobalSpace,strerror,417;arg1
+QGlobalSpace,operator|,15,127;f1,f2
+QGlobalSpace,scientific,228;s
+QGlobalSpace,operator|,5,123;f1,f2
+QGlobalSpace,strcspn,409,409;arg1,arg2
+QGlobalSpace,operator|,98,417;f1,f2
+QGlobalSpace,right,228;s
+QGlobalSpace,left,228;s
+QGlobalSpace,operator|,8,8;f1,f2
+QGlobalSpace,noforcepoint,228;s
+QGlobalSpace,strncpy,321,409,420;arg1,arg2,arg3
+QGlobalSpace,lowercasedigits,228;s
+QGlobalSpace,operator*,339,414;range,value
+QGlobalSpace,flush,228;s
+QGlobalSpace,strncat,321,409,420;arg1,arg2,arg3
+QGlobalSpace,operator|,98,130;f1,f2
+QGlobalSpace,operator|,8,417;f1,f2
+QGlobalSpace,strcmp,409,409;arg1,arg2
+QGlobalSpace,memset,423,417,420;arg1,arg2,arg3
+QGlobalSpace,operator|,6,124;f1,f2
+QGlobalSpace,operator|,8,126;f1,f2
+QGlobalSpace,operator|,90,417;f1,f2
+QGlobalSpace,strspn,409,409;arg1,arg2
+QGlobalSpace,operator|,90,90;f1,f2
+QGlobalSpace,ws,228;s
+QGlobalSpace,operator|,15,417;f1,f2
+QGlobalSpace,operator|,98,98;f1,f2
+QGlobalSpace,memccpy,423,413,417,420;arg1,arg2,arg3,arg4
+QGlobalSpace,memmove,423,413,420;arg1,arg2,arg3
+QGlobalSpace,forcepoint,228;s
+QGlobalSpace,center,228;s
+QGlobalSpace,strtok,321,409;arg1,arg2
+QGlobalSpace,operator+,339,414;range,value
+QGlobalSpace,operator/,339,414;range,value
+QGlobalSpace,operator|,90,129;f1,f2
+QGlobalSpace,reset,228;s
+QGlobalSpace,strcpy,321,409;arg1,arg2
+QGlobalSpace,operator|,15,15;f1,f2
+QGlobalSpace,oct,228;s
+QGlobalSpace,operator|,7,417;f1,f2
+QGlobalSpace,strcoll,409,409;arg1,arg2
+QGlobalSpace,strtok_r,321,409,322;arg1,arg2,arg3
+QGlobalSpace,endl,228;s
+QGlobalSpace,operator|,7,7;f1,f2
+QGlobalSpace,operator|,19,128;f1,f2
+QGlobalSpace,operator|,6,6;f1,f2
+QGlobalSpace,dec,228;s
+QGlobalSpace,operator+,414,339;value,range
+QGlobalSpace,operator|,5,417;f1,f2
+QGlobalSpace,hex,228;s
+QGlobalSpace,strxfrm,321,409,420;arg1,arg2,arg3
+QObject,event,122;arg1
+QObject,eventFilter,187,122;arg1,arg2
+QObject,timerEvent,229;arg1
+QObject,childEvent,109;arg1
+QObject,customEvent,122;arg1
+QObject,connectNotify,409;signal
+QObject,disconnectNotify,409;signal
+QWidget,setVisible,318;visible
+QWidget,heightForWidth,417;arg1
+QWidget,event,122;arg1
+QWidget,keyPressEvent,144;arg1
+QWidget,keyReleaseEvent,144;arg1
+QWidget,focusInEvent,133;arg1
+QWidget,focusOutEvent,133;arg1
+QWidget,enterEvent,122;arg1
+QWidget,leaveEvent,122;arg1
+QWidget,moveEvent,186;arg1
+QWidget,closeEvent,110;arg1
+QWidget,contextMenuEvent,113;arg1
+QWidget,tabletEvent,227;arg1
+QWidget,actionEvent,1;arg1
+QWidget,dragEnterEvent,117;arg1
+QWidget,dragMoveEvent,119;arg1
+QWidget,dragLeaveEvent,118;arg1
+QWidget,dropEvent,121;arg1
+QWidget,showEvent,218;arg1
+QWidget,hideEvent,140;arg1
+QWidget,x11Event,317;arg1
+QWidget,changeEvent,122;arg1
+QWidget,metric,189;arg1
+QWidget,inputMethodEvent,143;arg1
+QWidget,inputMethodQuery,279;arg1
+QWidget,focusNextPrevChild,318;next
+QWidget,styleChange,226;arg1
+QWidget,enabledChange,318;arg1
+QWidget,paletteChange,378;arg1
+QWidget,fontChange,348;arg1
+QWidget,windowActivationChange,318;arg1
