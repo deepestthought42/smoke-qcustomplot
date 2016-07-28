@@ -11558,10 +11558,10 @@ void QCPColorGradient::updateColorBuffer()
       QMap<double, QColor>::const_iterator it = mColorStops.lowerBound(position);
       if (it == mColorStops.constEnd()) // position is on or after last stop, use color of last stop
       {
-        mColorBuffer[i] = (it-1).value().rgb();
+        mColorBuffer[i] = (it-1).value().rgba();
       } else if (it == mColorStops.constBegin()) // position is on or before first stop, use color of first stop
       {
-        mColorBuffer[i] = it.value().rgb();
+        mColorBuffer[i] = it.value().rgba();
       } else // position is in between stops (or on an intermediate stop), interpolate color
       {
         QMap<double, QColor>::const_iterator high = it;
@@ -11571,9 +11571,10 @@ void QCPColorGradient::updateColorBuffer()
         {
           case ciRGB:
           {
-            mColorBuffer[i] = qRgb((1-t)*low.value().red() + t*high.value().red(),
-                                   (1-t)*low.value().green() + t*high.value().green(),
-                                   (1-t)*low.value().blue() + t*high.value().blue());
+	       mColorBuffer[i] = qRgba((1-t)*low.value().red() + t*high.value().red(),
+				       (1-t)*low.value().green() + t*high.value().green(),
+				       (1-t)*low.value().blue() + t*high.value().blue(),
+				       (1-t)*low.value().alpha() + t*high.value().alpha());
             break;
           }
           case ciHSV:
