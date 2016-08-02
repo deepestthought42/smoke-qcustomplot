@@ -26,3 +26,5 @@ Makefile*
 #QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
+/smoke/smoke_20151114-1_amd64.deb
+/smoke/description-pak
