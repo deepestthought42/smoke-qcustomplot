@@ -28,3 +28,4 @@ Makefile*
 *.qmlproject.user.*
 /smoke/smoke_20151114-1_amd64.deb
 /smoke/description-pak
+smoke/libsmokeqcustomplot.so
